@@ -1,0 +1,8839 @@
+{
+ "v": 1,
+ "minAppVersion": "1.0.0",
+ "updated": "2026-10-22",
+ "categories": [
+  {
+   "id": "cute",
+   "label": "Cute",
+   "icon": "heart"
+  },
+  {
+   "id": "animals",
+   "label": "Animals",
+   "icon": "pawprint"
+  },
+  {
+   "id": "nature",
+   "label": "Nature",
+   "icon": "tree"
+  },
+  {
+   "id": "cozy",
+   "label": "Cozy",
+   "icon": "mug"
+  },
+  {
+   "id": "bright",
+   "label": "Bright",
+   "icon": "sun.max"
+  },
+  {
+   "id": "gaming",
+   "label": "Gaming",
+   "icon": "gamecontroller"
+  },
+  {
+   "id": "classic",
+   "label": "Classic",
+   "icon": "book.closed"
+  },
+  {
+   "id": "places",
+   "label": "Places",
+   "icon": "globe"
+  },
+  {
+   "id": "dreamy",
+   "label": "Dreamy",
+   "icon": "sparkles"
+  },
+  {
+   "id": "art",
+   "label": "Art",
+   "icon": "paintpalette"
+  },
+  {
+   "id": "seasonal",
+   "label": "Seasonal",
+   "icon": "snowflake"
+  }
+ ],
+ "collections": [
+  {
+   "id": "cozy_autumn",
+   "title": "Cozy autumn",
+   "line": "Six warm themes for shorter days.",
+   "art": "sleepy_fox",
+   "themes": [
+    "sleepy_fox",
+    "vanilla_latte",
+    "old_library",
+    "night_light",
+    "pressed_flowers",
+    "teddy_picnic"
+   ],
+   "start": "2026-10-15",
+   "end": "2026-11-30"
+  },
+  {
+   "id": "winter_cabin",
+   "title": "Winter at the cabin",
+   "line": "Snow, warm windows and long nights.",
+   "art": "snow_cabin",
+   "themes": [
+    "snow_cabin",
+    "aurora",
+    "penguin_floe",
+    "marble"
+   ],
+   "start": "2026-12-01",
+   "end": "2027-01-31"
+  },
+  {
+   "id": "sugar_frost",
+   "title": "Sugar frost",
+   "line": "Frosted sweets and fairy lights.",
+   "art": "sugar_frost",
+   "themes": [
+    "sugar_frost",
+    "snow_globe",
+    "cozy_christmas",
+    "pink_christmas",
+    "gingerbread_lane",
+    "golden_noel",
+    "santa_paws",
+    "wreath_kitten",
+    "blush_poinsettia"
+   ],
+   "start": "2026-12-01",
+   "end": "2026-12-31"
+  },
+  {
+   "id": "written_stars",
+   "title": "Written in the stars",
+   "line": "Moons, signs and crystals for the new year.",
+   "art": "celestial",
+   "themes": [
+    "celestial",
+    "moon_phases",
+    "sign_aries",
+    "sign_taurus",
+    "sign_gemini",
+    "sign_cancer",
+    "sign_leo",
+    "sign_virgo",
+    "sign_libra",
+    "sign_scorpio",
+    "sign_sagittarius",
+    "sign_capricorn",
+    "sign_aquarius",
+    "sign_pisces",
+    "crystal_gems",
+    "opal_shimmer",
+    "winter_lights",
+    "moon_garden"
+   ],
+   "start": "2027-01-01",
+   "end": "2027-01-31"
+  },
+  {
+   "id": "love_letters",
+   "title": "Love letters",
+   "line": "Hearts, notes and pink for February.",
+   "art": "love_letters",
+   "themes": [
+    "love_letters",
+    "cherry_soda",
+    "bunny_bakery",
+    "chrome_heart"
+   ],
+   "start": "2027-02-01",
+   "end": "2027-02-28"
+  },
+  {
+   "id": "love_2027",
+   "title": "Love, again",
+   "line": "Hearts, lace and a little dark cherry.",
+   "art": "dark_cherry",
+   "themes": [
+    "dark_cherry",
+    "goat_year",
+    "ribbon_lace",
+    "be_mine",
+    "heart_gummies",
+    "ramadan_nights",
+    "cat_bouquet",
+    "plum_blossom",
+    "heart_wreath"
+   ],
+   "start": "2027-02-01",
+   "end": "2027-02-28"
+  },
+  {
+   "id": "spring_2027",
+   "title": "Spring blossom",
+   "line": "Blossom, koi and tulips.",
+   "art": "koi_garden",
+   "themes": [
+    "koi_garden",
+    "tulip_field",
+    "dango_picnic",
+    "bow_bunny",
+    "fuji_morning",
+    "sakura_nap",
+    "wisteria_tunnel",
+    "night_sakura",
+    "birds_nest"
+   ],
+   "start": "2027-03-01",
+   "end": "2027-03-31"
+  },
+  {
+   "id": "jelly_shop",
+   "title": "Jelly shop",
+   "line": "Boba, honey and wobbly jelly.",
+   "art": "jelly_cups",
+   "themes": [
+    "jelly_cups",
+    "sea_salt_soda",
+    "boba_shop",
+    "macarons",
+    "honey_jar",
+    "butterfly_house",
+    "petal_jelly",
+    "flower_tea"
+   ],
+   "start": "2027-04-01",
+   "end": "2027-04-30"
+  },
+  {
+   "id": "museum_day",
+   "title": "Museum day",
+   "line": "Great paintings, made into keyboards.",
+   "art": "starry_swirl",
+   "themes": [
+    "starry_swirl",
+    "sunflowers",
+    "ink_wash",
+    "gold_leaf",
+    "big_wave",
+    "herb_apothecary",
+    "parrot_tulips",
+    "anemones"
+   ],
+   "start": "2027-05-01",
+   "end": "2027-05-31"
+  },
+  {
+   "id": "seaside_summer",
+   "title": "Seaside summer",
+   "line": "Beach days and shave ice.",
+   "art": "beach_day",
+   "themes": [
+    "beach_day",
+    "melon_slice",
+    "pudding_pup",
+    "shave_ice",
+    "hydrangea_cat",
+    "pink_lemonade"
+   ],
+   "start": "2027-06-01",
+   "end": "2027-06-30"
+  },
+  {
+   "id": "night_swim",
+   "title": "Night swim",
+   "line": "Glowing seas and summer nights.",
+   "art": "deep_sea_glow",
+   "themes": [
+    "deep_sea_glow",
+    "firefly_night",
+    "campfire",
+    "shooting_stars",
+    "the_deep",
+    "kingyo_summer",
+    "jasmine_vine",
+    "lantern_garden"
+   ],
+   "start": "2027-07-01",
+   "end": "2027-07-31"
+  },
+  {
+   "id": "study_desk",
+   "title": "Study desk",
+   "line": "Lamps, ink and pencils for a new term.",
+   "art": "study_lamp",
+   "themes": [
+    "study_lamp",
+    "pencil_case",
+    "checkerboard",
+    "inkwell",
+    "fruit_sando",
+    "storybook_garden"
+   ],
+   "start": "2027-08-01",
+   "end": "2027-08-31"
+  },
+  {
+   "id": "harvest_moon",
+   "title": "Harvest moon",
+   "line": "A big moon over the fields.",
+   "art": "harvest_moon",
+   "themes": [
+    "harvest_moon",
+    "raven_moon",
+    "pink_muhly",
+    "dahlia_patch",
+    "cosmos_cat"
+   ],
+   "start": "2027-09-01",
+   "end": "2027-09-30"
+  },
+  {
+   "id": "spooky_2027",
+   "title": "Spooky season",
+   "line": "Black cats, ghosts and pumpkins.",
+   "art": "black_cat",
+   "themes": [
+    "black_cat",
+    "pumpkin_patch",
+    "cute_ghosts",
+    "little_witch",
+    "graveyard_moon",
+    "haunted_library",
+    "marigold_night"
+   ],
+   "start": "2027-10-01",
+   "end": "2027-10-31"
+  },
+  {
+   "id": "cozy_autumn_2027",
+   "title": "Cozy autumn",
+   "line": "Knits, apples and maple leaves.",
+   "art": "maple_lane",
+   "themes": [
+    "maple_lane",
+    "mushroom_forest",
+    "midnight_bloom",
+    "cozy_knit",
+    "apple_orchard",
+    "autumn_porch",
+    "ginkgo_lane",
+    "hedgerow",
+    "red_squirrel"
+   ],
+   "start": "2027-11-01",
+   "end": "2027-11-30"
+  },
+  {
+   "id": "winter_2027",
+   "title": "Winter at the lodge",
+   "line": "Snowy owls, ski lodges and a glamorous new year.",
+   "art": "ski_lodge",
+   "themes": [
+    "ski_lodge",
+    "snowy_owl",
+    "polar_bear",
+    "art_deco",
+    "camellia_snow",
+    "russian_blue_frost",
+    "snow_garden"
+   ],
+   "start": "2027-12-01",
+   "end": "2027-12-31"
+  },
+  {
+   "id": "frost_garden",
+   "title": "Frost garden",
+   "line": "Peonies under snow and roses in the frost.",
+   "art": "frost_roses",
+   "themes": [
+    "frost_roses",
+    "patchwork_quilt",
+    "winter_peony",
+    "orchid_house",
+    "bird_feeder",
+    "snowdrop_kitten"
+   ],
+   "start": "2028-01-01",
+   "end": "2028-01-31"
+  },
+  {
+   "id": "love_in_bloom",
+   "title": "Love in bloom",
+   "line": "Bouquets, swans and a hatbox of roses.",
+   "art": "wrapped_bouquet",
+   "themes": [
+    "wrapped_bouquet",
+    "hatbox_kitten",
+    "swan_pond",
+    "rosebud_chintz",
+    "regency_garden"
+   ],
+   "start": "2028-02-01",
+   "end": "2028-02-29"
+  },
+  {
+   "id": "hanami",
+   "title": "Hanami",
+   "line": "Magnolia, petals in puddles and a sakura latte.",
+   "art": "magnolia_wall",
+   "themes": [
+    "magnolia_wall",
+    "rain_boot_kitten",
+    "forget_me_not",
+    "sakura_latte",
+    "puddle_petals"
+   ],
+   "start": "2028-03-01",
+   "end": "2028-03-31"
+  },
+  {
+   "id": "garden_party",
+   "title": "Garden party",
+   "line": "Bluebells, tulips and a basket of blooms.",
+   "art": "bloom_basket",
+   "themes": [
+    "bloom_basket",
+    "meadow_kitten",
+    "balcony_tulips",
+    "nemophila_hill",
+    "lily_of_valley",
+    "bluebell_wood"
+   ],
+   "start": "2028-04-01",
+   "end": "2028-04-30"
+  },
+  {
+   "id": "rose_garden",
+   "title": "Rose garden",
+   "line": "Rose arches, sweet peas and tall delphiniums.",
+   "art": "rose_arch",
+   "themes": [
+    "rose_arch",
+    "sweet_peas",
+    "tea_terraces",
+    "delphinium_wall",
+    "daisy_gingham"
+   ],
+   "start": "2028-05-01",
+   "end": "2028-05-31"
+  },
+  {
+   "id": "rainy_season",
+   "title": "Rainy season",
+   "line": "Hydrangeas, moss and frogs in the rain.",
+   "art": "hydrangea_steps",
+   "themes": [
+    "hydrangea_steps",
+    "dandelion_clock",
+    "frog_umbrella",
+    "flower_cookies"
+   ],
+   "start": "2028-06-01",
+   "end": "2028-06-30"
+  },
+  {
+   "id": "summer_garden",
+   "title": "Summer garden",
+   "line": "Morning glories, daisies and a hummingbird.",
+   "art": "morning_glory",
+   "themes": [
+    "morning_glory",
+    "daisy_crown",
+    "eucalyptus_sage",
+    "hummingbird"
+   ],
+   "start": "2028-07-01",
+   "end": "2028-07-31"
+  },
+  {
+   "id": "fairy_summer",
+   "title": "Fairy summer",
+   "line": "Tiny doors, teacup gardens and a carousel.",
+   "art": "fairy_garden",
+   "themes": [
+    "fairy_garden",
+    "balloon_fields",
+    "teacup_garden",
+    "flower_carousel",
+    "paper_garden"
+   ],
+   "start": "2028-08-01",
+   "end": "2028-08-31"
+  }
+ ],
+ "openings": [
+  {
+   "id": "launch",
+   "wall": [
+    [
+     "strawberry_cream",
+     "glowing_beach",
+     "cherry_bows",
+     "capybara_onsen",
+     "rain_city"
+    ],
+    [
+     "opera_night",
+     "fence_kittens",
+     "fruit_friends",
+     "star_chart",
+     "pink_jelly"
+    ],
+    [
+     "cherry_soda",
+     "neon_grid",
+     "duck_parade",
+     "hong_kong_neon",
+     "citrus_pop"
+    ]
+   ],
+   "runs": {
+    "themes": [
+     "strawberry_patch",
+     "kyoto_torii",
+     "mochi_pals",
+     "lofi_room",
+     "cherry_soda"
+    ],
+    "keycaps": [
+     "matte_pink_jelly",
+     "shape_fruit_friends",
+     "matte_gilded",
+     "shape_cloud"
+    ],
+    "backgrounds": [
+     "strawberry_cream",
+     "star_chart",
+     "lily_pad",
+     "swirling_stars",
+     "citrus_pop"
+    ],
+    "fonts": [
+     "caveat",
+     "bubblegum_sans",
+     "orbitron",
+     "playfair_display"
+    ],
+    "specials": [
+     "capybara_onsen",
+     "duck_parade",
+     "cherry_bows"
+    ]
+   }
+  },
+  {
+   "id": "winter_2026",
+   "start": "2026-12-01",
+   "end": "2026-12-31",
+   "wall": [
+    [
+     "fruit_friends",
+     "lofoten_aurora",
+     "cozy_christmas",
+     "sugar_frost",
+     "hallstatt"
+    ],
+    [
+     "christmas_market",
+     "snow_cabin",
+     "pink_christmas",
+     "ryokan_snow",
+     "penguin_floe"
+    ],
+    [
+     "santa_paws",
+     "snow_globe",
+     "pink_jelly",
+     "neon_grid",
+     "british_blue"
+    ]
+   ],
+   "runs": {
+    "themes": [
+     "strawberry_patch",
+     "winter_palace",
+     "mochi_pals",
+     "lofi_room",
+     "cherry_soda"
+    ]
+   }
+  },
+  {
+   "id": "january_2027",
+   "start": "2027-01-01",
+   "end": "2027-01-31",
+   "wall": [
+    [
+     "fruit_friends",
+     "lofoten_aurora",
+     "celestial",
+     "sugar_frost",
+     "hallstatt"
+    ],
+    [
+     "nyc_snow",
+     "snow_cabin",
+     "crystal_gems",
+     "ryokan_snow",
+     "penguin_floe"
+    ],
+    [
+     "snow_lake",
+     "snow_globe",
+     "pink_jelly",
+     "neon_grid",
+     "british_blue"
+    ]
+   ],
+   "runs": {
+    "themes": [
+     "strawberry_patch",
+     "winter_palace",
+     "mochi_pals",
+     "lofi_room",
+     "cherry_soda"
+    ]
+   }
+  },
+  {
+   "id": "valentine_2027",
+   "start": "2027-02-01",
+   "end": "2027-02-28",
+   "wall": [
+    [
+     "love_letters",
+     "ramadan_lanterns",
+     "cherry_bows",
+     "cat_bouquet",
+     "opera_night"
+    ],
+    [
+     "neon_hearts",
+     "be_mine",
+     "fence_kittens",
+     "lunar_new_year",
+     "heart_gummies"
+    ],
+    [
+     "chrome_heart",
+     "neon_grid",
+     "himeji_sakura",
+     "goat_year",
+     "heart_wreath"
+    ]
+   ],
+   "runs": {
+    "themes": [
+     "strawberry_patch",
+     "himeji_sakura",
+     "mochi_pals",
+     "lofi_room",
+     "cherry_soda"
+    ]
+   }
+  }
+ ],
+ "rows": [
+  {
+   "id": "free",
+   "title": "Free",
+   "kind": "free"
+  },
+  {
+   "id": "next",
+   "title": "Next drop",
+   "kind": "next"
+  },
+  {
+   "id": "cats",
+   "title": "Cats",
+   "themes": [
+    "mycat_ginger",
+    "clementine_cat",
+    "strawberry_patch",
+    "fence_kittens",
+    "ragdoll_roses",
+    "leaf_pile_kitten",
+    "british_blue",
+    "odd_couple",
+    "catnip_garden",
+    "lucky_calico",
+    "maine_coon_porch",
+    "persian_pearl"
+   ]
+  },
+  {
+   "id": "world",
+   "title": "Around the world",
+   "themes": [
+    "forbidden_city",
+    "kyoto_torii",
+    "santorini",
+    "paris_balcony",
+    "gyeongbokgung",
+    "jiufen",
+    "taj_mahal",
+    "venice",
+    "himeji_sakura",
+    "suzhou_garden",
+    "kinkakuji",
+    "hanok_village"
+   ]
+  },
+  {
+   "id": "cute",
+   "title": "Cute",
+   "themes": [
+    "bunny_bakery",
+    "corgi_meadow",
+    "sticker_book",
+    "lavender"
+   ]
+  },
+  {
+   "id": "festivals",
+   "title": "Festival lights",
+   "kind": "rotating",
+   "themes": [
+    "lunar_new_year",
+    "venice_carnival",
+    "ramadan_lanterns",
+    "tulip_fields",
+    "tanabata",
+    "summer_fireworks",
+    "mid_autumn",
+    "halloween_village",
+    "diwali",
+    "sky_lanterns",
+    "christmas_market",
+    "new_year_eve"
+   ]
+  },
+  {
+   "id": "bloom",
+   "title": "In bloom",
+   "themes": [
+    "cherry_bows",
+    "wildflower_meadow",
+    "blush_peonies",
+    "flower_basin",
+    "lilac_bloom",
+    "secret_door",
+    "flower_cart",
+    "blush_roses",
+    "perfume_garden",
+    "floral_embroidery",
+    "glasshouse_cafe",
+    "dark_wildflowers"
+   ]
+  },
+  {
+   "id": "majestic",
+   "title": "Majestic",
+   "themes": [
+    "emerald_salon",
+    "hall_of_mirrors",
+    "royal_library",
+    "rose_ballroom",
+    "starry_rotunda",
+    "winter_palace",
+    "opera_night",
+    "moorish_court",
+    "gilded_deco",
+    "palace_orangery"
+   ]
+  },
+  {
+   "id": "dreamy",
+   "title": "Dreamy",
+   "themes": [
+    "curtain_light",
+    "cotton_candy_sky",
+    "moonlit_window",
+    "anime_sky",
+    "moonlit_garden",
+    "iridescent",
+    "dream_house",
+    "misty_meadow",
+    "night_drive",
+    "dragon_hoard",
+    "crystal_cave",
+    "glowing_forest"
+   ]
+  },
+  {
+   "id": "painted",
+   "title": "Painted",
+   "themes": [
+    "swirling_stars",
+    "water_lilies",
+    "gold_mosaic",
+    "woodblock_fuji",
+    "art_nouveau",
+    "ink_mountains",
+    "tiffany_glass",
+    "persian_garden",
+    "dark_florals",
+    "gold_irises"
+   ]
+  },
+  {
+   "id": "stilllakes",
+   "title": "Still lakes",
+   "themes": [
+    "red_sail",
+    "lighthouse_isle",
+    "flamingo_lagoon",
+    "balloon_lake",
+    "dusk_cabin",
+    "snow_lake",
+    "red_house",
+    "yellow_boat",
+    "orange_grove",
+    "cherry_car"
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "id": "cherry_soda",
+   "name": "Cherry soda",
+   "category": "cute",
+   "background": "cherry_soda",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "cherry_pair",
+    "123": "melon_soda",
+    "bksp": "swirl_pop"
+   },
+   "tags": [
+    "red",
+    "cherry",
+    "soda",
+    "sweet"
+   ],
+   "caps": "matte_cherry_soda"
+  },
+  {
+   "id": "cloud_nine",
+   "name": "Cloud nine",
+   "category": "cute",
+   "background": "cloud_nine",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "baby_unicorn"
+   },
+   "tags": [
+    "pastel",
+    "sky",
+    "clouds",
+    "blue",
+    "dreamy"
+   ],
+   "caps": "shape_cloud"
+  },
+  {
+   "id": "aurora",
+   "name": "Aurora",
+   "category": "nature",
+   "background": "aurora",
+   "font": "michroma",
+   "artisans": {
+    "space": "snow_peaks",
+    "globe": "astronaut"
+   },
+   "tags": [
+    "night",
+    "stars",
+    "northern lights",
+    "snow"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "bunny_bakery",
+   "name": "Bunny bakery",
+   "category": "cute",
+   "background": "bunny_bakery",
+   "font": "jua",
+   "artisans": {
+    "shift": "lop_bunny",
+    "123": "macaron",
+    "bksp": "shortcake",
+    "globe": "strawberry"
+   },
+   "tags": [
+    "pastel",
+    "sweet",
+    "bakery",
+    "bunny",
+    "pink"
+   ],
+   "caps": "matte_bunny_bakery"
+  },
+  {
+   "id": "teddy_picnic",
+   "name": "Teddy picnic",
+   "category": "cute",
+   "background": "teddy_picnic",
+   "font": "patrick_hand",
+   "artisans": {
+    "shift": "grizzly_cub",
+    "bksp": "strawberry",
+    "123": "butter_toast",
+    "globe": "hatch_chick"
+   },
+   "tags": [
+    "bear",
+    "picnic",
+    "red",
+    "cozy"
+   ],
+   "caps": "matte_teddy_picnic"
+  },
+  {
+   "id": "sticker_book",
+   "name": "Sticker book",
+   "category": "cute",
+   "background": "sticker_book",
+   "font": "chewy",
+   "artisans": {
+    "globe": "ringed_planet",
+    "shift": "ribbon_bow",
+    "return": "love_heart"
+   },
+   "tags": [
+    "pastel",
+    "stickers",
+    "purple"
+   ],
+   "caps": "shape_pillow"
+  },
+  {
+   "id": "corgi_meadow",
+   "name": "Corgi meadow",
+   "category": "animals",
+   "background": "corgi_meadow",
+   "font": "patrick_hand",
+   "artisans": {
+    "shift": "corgi_ears",
+    "123": "golden_pup",
+    "globe": "spotty_pup",
+    "space": "sausage_dog"
+   },
+   "tags": [
+    "dogs",
+    "corgi",
+    "meadow",
+    "green"
+   ],
+   "caps": "matte_corgi_meadow"
+  },
+  {
+   "id": "penguin_floe",
+   "name": "Penguin floe",
+   "category": "animals",
+   "background": "penguin_floe",
+   "font": "jua",
+   "artisans": {
+    "shift": "baby_penguin",
+    "globe": "seal_pup",
+    "123": "polar_pal",
+    "space": "whale_glide"
+   },
+   "tags": [
+    "penguin",
+    "snow",
+    "blue",
+    "ice"
+   ],
+   "caps": "shape_round"
+  },
+  {
+   "id": "axolotl_pond",
+   "name": "Axolotl pond",
+   "category": "animals",
+   "background": "axolotl_pond",
+   "font": "sniglet",
+   "artisans": {
+    "globe": "axolotl",
+    "123": "baby_octopus",
+    "bksp": "sea_turtle",
+    "space": "koi_pond"
+   },
+   "tags": [
+    "axolotl",
+    "pond",
+    "water"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "lily_pad",
+   "name": "Lily pad",
+   "category": "animals",
+   "background": "lily_pad",
+   "font": "gaegu",
+   "artisans": {
+    "globe": "lily_frog",
+    "bksp": "ladybug",
+    "space": "caterpillar"
+   },
+   "tags": [
+    "frog",
+    "pond",
+    "green"
+   ],
+   "caps": "matte_lily_pad"
+  },
+  {
+   "id": "sleepy_fox",
+   "name": "Sleepy fox",
+   "category": "animals",
+   "background": "sleepy_fox",
+   "font": "caveat",
+   "artisans": {
+    "shift": "sleepy_fox",
+    "123": "squirrel_pal",
+    "bksp": "hedgie_ball",
+    "globe": "round_owl"
+   },
+   "tags": [
+    "autumn",
+    "fox",
+    "leaves",
+    "orange"
+   ],
+   "caps": "matte_sleepy_fox"
+  },
+  {
+   "id": "lavender",
+   "name": "Lavender",
+   "category": "nature",
+   "background": "lavender",
+   "font": "fraunces",
+   "artisans": {},
+   "tags": [
+    "purple",
+    "flowers",
+    "calm"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "sea_glass",
+   "name": "Sea glass",
+   "category": "nature",
+   "background": "sea_glass",
+   "font": "dm_sans",
+   "artisans": {
+    "bksp": "sea_otter",
+    "globe": "sea_turtle",
+    "return": "lighthouse"
+   },
+   "tags": [
+    "sea",
+    "beach",
+    "water",
+    "calm"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "spring_blossom",
+   "name": "Spring blossom",
+   "category": "nature",
+   "background": "spring_blossom",
+   "font": "playfair_display",
+   "artisans": {
+    "space": "sakura_branch",
+    "globe": "paper_crane",
+    "123": "dango_skewer"
+   },
+   "tags": [
+    "pastel",
+    "pink",
+    "blossom",
+    "spring"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "vanilla_latte",
+   "name": "Vanilla latte",
+   "category": "cozy",
+   "background": "vanilla_latte",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "latte_heart",
+    "bksp": "croissant",
+    "123": "cinnamon_roll",
+    "space": "baguette"
+   },
+   "tags": [
+    "coffee",
+    "cafe",
+    "cozy",
+    "beige"
+   ],
+   "caps": "matte_vanilla_latte"
+  },
+  {
+   "id": "pressed_flowers",
+   "name": "Pressed flowers",
+   "category": "cozy",
+   "background": "pressed_flowers",
+   "font": "fraunces",
+   "artisans": {
+    "shift": "ribbon_bow",
+    "globe": "pearl"
+   },
+   "tags": [
+    "flowers",
+    "vintage",
+    "cozy"
+   ],
+   "caps": "matte_pressed_flowers"
+  },
+  {
+   "id": "film_days",
+   "name": "Film days",
+   "category": "cozy",
+   "background": "film_days",
+   "font": "space_mono",
+   "artisans": {
+    "space": "surfboard",
+    "return": "wave_crest"
+   },
+   "tags": [
+    "film",
+    "retro",
+    "sunset"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "night_light",
+   "name": "Night light",
+   "category": "cozy",
+   "background": "night_light",
+   "font": "indie_flower",
+   "artisans": {
+    "return": "moon_rabbit",
+    "space": "sleepy_cat",
+    "globe": "little_ghost"
+   },
+   "tags": [
+    "night",
+    "cozy",
+    "moon",
+    "cat"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "citrus_pop",
+   "name": "Citrus pop",
+   "category": "bright",
+   "background": "citrus_pop",
+   "font": "righteous",
+   "artisans": {
+    "globe": "yuzu",
+    "123": "watermelon",
+    "bksp": "melon_soda"
+   },
+   "tags": [
+    "orange",
+    "lemon",
+    "yellow",
+    "summer"
+   ],
+   "caps": "matte_citrus_pop"
+  },
+  {
+   "id": "gummy_rainbow",
+   "name": "Gummy rainbow",
+   "category": "bright",
+   "background": "gummy_rainbow",
+   "font": "chewy",
+   "artisans": {
+    "globe": "gummy_bear",
+    "123": "swirl_pop",
+    "bksp": "pink_donut"
+   },
+   "tags": [
+    "rainbow",
+    "candy",
+    "colourful"
+   ],
+   "caps": "shape_gummy"
+  },
+  {
+   "id": "chrome_heart",
+   "name": "Chrome heart",
+   "category": "bright",
+   "background": "chrome_heart",
+   "font": "audiowide",
+   "artisans": {
+    "shift": "love_heart",
+    "globe": "diamond",
+    "return": "birthstone"
+   },
+   "tags": [
+    "chrome",
+    "heart",
+    "y2k",
+    "pink"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "neon_grid",
+   "name": "Neon grid",
+   "category": "gaming",
+   "background": "neon_grid",
+   "font": "orbitron",
+   "artisans": {
+    "space": "neon_grid",
+    "123": "arcade_stick",
+    "globe": "game_cartridge",
+    "shift": "lightning_bolt"
+   },
+   "tags": [
+    "neon",
+    "synthwave",
+    "gaming",
+    "retro"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "steel_bay",
+   "name": "Steel bay",
+   "category": "gaming",
+   "background": "steel_bay",
+   "font": "russo_one",
+   "artisans": {
+    "shift": "wrench",
+    "123": "key_switch",
+    "globe": "rocket_ship",
+    "space": "rocket_launch"
+   },
+   "tags": [
+    "metal",
+    "garage",
+    "dark"
+   ],
+   "caps": "matte_steel_bay"
+  },
+  {
+   "id": "dragon_keep",
+   "name": "Dragon keep",
+   "category": "gaming",
+   "background": "dragon_keep",
+   "font": "dm_serif_display",
+   "artisans": {
+    "shift": "dragon_head",
+    "globe": "flame",
+    "123": "treasure_chest",
+    "return": "ember_dragon",
+    "space": "long_dragon"
+   },
+   "tags": [
+    "dragon",
+    "fantasy",
+    "dark",
+    "red"
+   ],
+   "caps": "matte_dragon_keep"
+  },
+  {
+   "id": "beige_desk",
+   "name": "Beige desk",
+   "category": "classic",
+   "background": "beige_desk",
+   "font": "jetbrains_mono",
+   "artisans": {
+    "globe": "retro_tv",
+    "123": "game_cartridge",
+    "shift": "key_switch"
+   },
+   "tags": [
+    "beige",
+    "desk",
+    "retro",
+    "minimal"
+   ],
+   "caps": "matte_beige_desk"
+  },
+  {
+   "id": "marble",
+   "name": "Marble",
+   "category": "classic",
+   "background": "marble",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "diamond",
+    "shift": "crown",
+    "space": "pearl_strand"
+   },
+   "tags": [
+    "marble",
+    "gold",
+    "elegant",
+    "white"
+   ],
+   "caps": "matte_marble"
+  },
+  {
+   "id": "old_library",
+   "name": "Old library",
+   "category": "classic",
+   "background": "old_library",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "secret_scroll",
+    "return": "moss_cottage",
+    "123": "round_owl"
+   },
+   "tags": [
+    "books",
+    "library",
+    "dark academia",
+    "green"
+   ],
+   "caps": "matte_old_library"
+  },
+  {
+   "id": "liquid_glass",
+   "name": "Liquid glass",
+   "category": "bright",
+   "background": "liquid_glass",
+   "font": null,
+   "artisans": {},
+   "tags": [
+    "glass",
+    "clear",
+    "minimal"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "snow_cabin",
+   "name": "Snow cabin",
+   "category": "seasonal",
+   "background": "snow_cabin",
+   "font": "patrick_hand",
+   "artisans": {
+    "space": "first_snow",
+    "return": "hot_cocoa",
+    "shift": "snow_sammy",
+    "123": "polar_pal"
+   },
+   "tags": [
+    "winter",
+    "snow",
+    "christmas",
+    "cabin"
+   ],
+   "caps": "matte_snow_cabin",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "love_letters",
+   "name": "Love letters",
+   "category": "seasonal",
+   "background": "love_letters",
+   "font": "pacifico",
+   "artisans": {
+    "globe": "love_heart",
+    "shift": "ribbon_bow",
+    "space": "pearl_strand"
+   },
+   "tags": [
+    "valentine",
+    "love",
+    "hearts",
+    "pink"
+   ],
+   "caps": "shape_heart",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "matcha_tea_house",
+   "name": "Matcha tea house",
+   "category": "cute",
+   "background": "matcha_tea_house",
+   "font": "sunflower",
+   "artisans": {
+    "globe": "iced_matcha",
+    "123": "bamboo_whisk",
+    "bksp": "matcha_bowl",
+    "shift": "daifuku"
+   },
+   "tags": [
+    "matcha",
+    "cafe",
+    "green",
+    "japanese",
+    "calm"
+   ],
+   "caps": "matte_matcha_tea_house"
+  },
+  {
+   "id": "cat_nap",
+   "name": "Cat nap",
+   "category": "animals",
+   "background": "cat_nap",
+   "font": "nunito",
+   "artisans": {
+    "globe": "loaf_cat",
+    "shift": "toe_beans",
+    "123": "yarn_ball",
+    "space": "kitten_row"
+   },
+   "tags": [
+    "cat",
+    "sunny",
+    "cosy",
+    "window",
+    "warm"
+   ],
+   "caps": "matte_cat_nap"
+  },
+  {
+   "id": "capybara_onsen",
+   "name": "Capybara onsen",
+   "category": "animals",
+   "background": "capybara_onsen",
+   "font": "gaegu",
+   "artisans": {
+    "space": "onsen_capy",
+    "globe": "yuzu",
+    "123": "chill_capy",
+    "return": "wooden_bucket"
+   },
+   "tags": [
+    "capybara",
+    "onsen",
+    "steam",
+    "yuzu",
+    "calm"
+   ],
+   "caps": "matte_capybara_onsen"
+  },
+  {
+   "id": "star_chart",
+   "name": "Star chart",
+   "category": "nature",
+   "background": "star_chart",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "crescent_moon",
+    "globe": "comet",
+    "123": "ringed_planet"
+   },
+   "tags": [
+    "stars",
+    "night",
+    "gold",
+    "map",
+    "navy"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A"
+  },
+  {
+   "id": "typewriter",
+   "name": "Typewriter",
+   "category": "classic",
+   "background": "typewriter",
+   "font": "space_mono",
+   "artisans": {
+    "globe": "ribbon_spool",
+    "return": "carriage_lever",
+    "shift": "fountain_pen"
+   },
+   "tags": [
+    "typewriter",
+    "vintage",
+    "cream",
+    "paper",
+    "writer"
+   ],
+   "caps": "shape_typewriter"
+  },
+  {
+   "id": "strawberry_cream",
+   "name": "Strawberry cream",
+   "category": "bright",
+   "background": "strawberry_cream",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "strawberry",
+    "123": "shortcake",
+    "bksp": "pink_donut",
+    "return": "love_heart"
+   },
+   "tags": [
+    "strawberry",
+    "pink",
+    "cream",
+    "jelly",
+    "sweet"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#5A2632"
+  },
+  {
+   "id": "purin_cafe",
+   "name": "Purin cafe",
+   "category": "cute",
+   "background": "purin_cafe",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "purin",
+    "123": "cherry_pair",
+    "bksp": "cupcake"
+   },
+   "tags": [
+    "pudding",
+    "retro",
+    "cafe",
+    "yellow",
+    "japanese"
+   ],
+   "caps": "matte_purin_cafe"
+  },
+  {
+   "id": "mochi_pals",
+   "name": "Mochi pals",
+   "category": "cute",
+   "background": "mochi_pals",
+   "font": "jua",
+   "artisans": {
+    "globe": "mochi_face",
+    "123": "daifuku",
+    "shift": "dango_skewer"
+   },
+   "tags": [
+    "mochi",
+    "kawaii",
+    "squishy",
+    "pastel",
+    "japanese"
+   ],
+   "caps": "shape_mochi_pals"
+  },
+  {
+   "id": "ramen_night",
+   "name": "Ramen night",
+   "category": "cute",
+   "background": "ramen_night",
+   "font": "do_hyeon",
+   "artisans": {
+    "return": "ramen_bowl",
+    "globe": "gyoza",
+    "123": "sunny_egg",
+    "shift": "chopsticks"
+   },
+   "tags": [
+    "ramen",
+    "night",
+    "japanese",
+    "neon",
+    "food"
+   ],
+   "caps": "matte_ramen_night"
+  },
+  {
+   "id": "fruit_friends",
+   "name": "Fruit friends",
+   "category": "cute",
+   "background": "fruit_friends",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "cherry_pair",
+    "123": "swirl_pop",
+    "bksp": "melon_soda"
+   },
+   "tags": [
+    "fruit",
+    "kids",
+    "bright",
+    "cherries",
+    "fun"
+   ],
+   "caps": "shape_fruit_friends"
+  },
+  {
+   "id": "duck_parade",
+   "name": "Duck parade",
+   "category": "animals",
+   "background": "duck_parade",
+   "font": "baloo_2",
+   "artisans": {
+    "space": "duck_parade",
+    "globe": "bath_duck",
+    "123": "duckling"
+   },
+   "tags": [
+    "duck",
+    "pond",
+    "yellow",
+    "cute",
+    "kids"
+   ],
+   "caps": "matte_duck_parade"
+  },
+  {
+   "id": "loaf_cats",
+   "name": "Loaf cats",
+   "category": "animals",
+   "background": "loaf_cats",
+   "font": "nunito",
+   "artisans": {
+    "return": "bread_cat",
+    "globe": "loaf_cat",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "bakery",
+    "bread",
+    "warm",
+    "funny"
+   ],
+   "caps": "matte_loaf_cats"
+  },
+  {
+   "id": "cat_cafe",
+   "name": "Cat cafe",
+   "category": "animals",
+   "background": "cat_cafe",
+   "font": "fraunces",
+   "artisans": {
+    "123": "latte_heart",
+    "globe": "tabby_face",
+    "bksp": "cinnamon_roll",
+    "space": "sleepy_cat"
+   },
+   "tags": [
+    "cat",
+    "cafe",
+    "latte",
+    "cosy",
+    "beige"
+   ],
+   "caps": "matte_cat_cafe"
+  },
+  {
+   "id": "terrarium",
+   "name": "Terrarium",
+   "category": "nature",
+   "background": "terrarium",
+   "font": "outfit",
+   "artisans": {
+    "return": "terrarium_jar",
+    "globe": "monstera",
+    "bksp": "lily_frog"
+   },
+   "tags": [
+    "terrarium",
+    "moss",
+    "glass",
+    "plants",
+    "green"
+   ],
+   "caps": "matte_terrarium"
+  },
+  {
+   "id": "rain_window",
+   "name": "Rain window",
+   "category": "cozy",
+   "background": "rain_window",
+   "font": "clean",
+   "artisans": {
+    "return": "hot_cocoa",
+    "globe": "raindrop",
+    "shift": "cloud_puff"
+   },
+   "tags": [
+    "rain",
+    "cosy",
+    "window",
+    "tea",
+    "grey"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "y2k_sparkle",
+   "name": "Y2K sparkle",
+   "category": "cozy",
+   "background": "y2k_sparkle",
+   "font": "audiowide",
+   "artisans": {
+    "globe": "chrome_butterfly",
+    "return": "flip_phone",
+    "123": "star_sticker",
+    "shift": "love_heart"
+   },
+   "tags": [
+    "y2k",
+    "chrome",
+    "holographic",
+    "butterfly",
+    "pink"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#474747"
+  },
+  {
+   "id": "space_kitty",
+   "name": "Space kitty",
+   "category": "cute",
+   "background": "space_kitty",
+   "font": "comfortaa",
+   "artisans": {
+    "globe": "astronaut",
+    "123": "ringed_planet",
+    "shift": "rocket_ship",
+    "space": "space_cat"
+   },
+   "tags": [
+    "space",
+    "cat",
+    "pastel",
+    "stars",
+    "kids"
+   ],
+   "caps": "matte_space_kitty"
+  },
+  {
+   "id": "lofi_room",
+   "name": "Lo-fi room",
+   "category": "cozy",
+   "background": "lofi_room",
+   "font": "space_grotesk",
+   "artisans": {
+    "globe": "headphones",
+    "123": "desk_lamp",
+    "return": "vinyl_record"
+   },
+   "tags": [
+    "lofi",
+    "night",
+    "desk",
+    "purple",
+    "study"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "seoul_night",
+   "name": "Seoul night",
+   "category": "cozy",
+   "background": "seoul_night",
+   "font": "black_han_sans",
+   "artisans": {
+    "return": "hanok_roof",
+    "globe": "kimbap",
+    "shift": "neon_sign"
+   },
+   "tags": [
+    "seoul",
+    "neon",
+    "hanok",
+    "city",
+    "korean"
+   ],
+   "caps": "matte_seoul_night"
+  },
+  {
+   "id": "ballet_pink",
+   "name": "Ballet pink",
+   "category": "cozy",
+   "background": "ballet_pink",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "pointe_shoes",
+    "shift": "ribbon_bow",
+    "123": "pearl",
+    "globe": "lace_heart"
+   },
+   "tags": [
+    "ballet",
+    "satin",
+    "blush",
+    "ribbon",
+    "coquette"
+   ],
+   "caps": "shape_ballet_pink"
+  },
+  {
+   "id": "neon_hearts",
+   "name": "Neon hearts",
+   "category": "bright",
+   "background": "neon_hearts",
+   "font": "audiowide",
+   "artisans": {
+    "return": "neon_heart",
+    "shift": "lightning_bolt",
+    "globe": "love_heart"
+   },
+   "tags": [
+    "neon",
+    "hearts",
+    "pink",
+    "night",
+    "glow"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "photo_booth",
+   "name": "Photo booth",
+   "category": "bright",
+   "background": "photo_booth",
+   "font": "gaegu",
+   "artisans": {
+    "return": "flip_phone",
+    "123": "star_sticker",
+    "space": "photo_strip",
+    "globe": "chrome_butterfly"
+   },
+   "tags": [
+    "photo strip",
+    "stickers",
+    "y2k",
+    "pastel",
+    "korean"
+   ],
+   "caps": "matte_photo_booth"
+  },
+  {
+   "id": "aero_bubbles",
+   "name": "Aero bubbles",
+   "category": "bright",
+   "background": "aero_bubbles",
+   "font": "exo_2",
+   "artisans": {
+    "globe": "water_bubble",
+    "123": "melon_soda",
+    "bksp": "sea_turtle"
+   },
+   "tags": [
+    "bubbles",
+    "glossy",
+    "aqua",
+    "y2k",
+    "fresh"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E"
+  },
+  {
+   "id": "samurai_night",
+   "name": "Samurai night",
+   "category": "gaming",
+   "background": "samurai_night",
+   "font": "anton",
+   "artisans": {
+    "globe": "samurai_helmet",
+    "space": "katana",
+    "123": "sword_guard",
+    "return": "red_moon"
+   },
+   "tags": [
+    "samurai",
+    "red moon",
+    "dark",
+    "japanese",
+    "maple"
+   ],
+   "caps": "matte_samurai_night"
+  },
+  {
+   "id": "space_walk",
+   "name": "Space walk",
+   "category": "gaming",
+   "background": "space_walk",
+   "font": "michroma",
+   "artisans": {
+    "globe": "astronaut",
+    "space": "rocket_launch",
+    "123": "ringed_planet"
+   },
+   "tags": [
+    "space",
+    "orbit",
+    "earth",
+    "black",
+    "astronaut"
+   ],
+   "caps": "matte_space_walk"
+  },
+  {
+   "id": "rain_city",
+   "name": "Rain city",
+   "category": "gaming",
+   "background": "rain_city",
+   "font": "audiowide",
+   "artisans": {
+    "globe": "neon_sign",
+    "123": "raindrop",
+    "bksp": "headphones"
+   },
+   "tags": [
+    "cyberpunk",
+    "neon",
+    "rain",
+    "city",
+    "night"
+   ],
+   "caps": "matte_rain_city"
+  },
+  {
+   "id": "tokyo_alley",
+   "name": "Tokyo alley",
+   "category": "gaming",
+   "background": "tokyo_alley",
+   "font": "sora",
+   "artisans": {
+    "return": "paper_lantern",
+    "123": "lucky_cat",
+    "shift": "neon_sign",
+    "globe": "ramen_bowl"
+   },
+   "tags": [
+    "alley",
+    "lanterns",
+    "night",
+    "japanese",
+    "neon"
+   ],
+   "caps": "matte_tokyo_alley"
+  },
+  {
+   "id": "potion_shop",
+   "name": "Potion shop",
+   "category": "gaming",
+   "background": "potion_shop",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "lucky_d20",
+    "return": "potion_flask",
+    "123": "secret_scroll",
+    "shift": "candle_glow"
+   },
+   "tags": [
+    "fantasy",
+    "potions",
+    "dice",
+    "candle",
+    "dark"
+   ],
+   "caps": "matte_potion_shop"
+  },
+  {
+   "id": "arcade_night",
+   "name": "Arcade night",
+   "category": "gaming",
+   "background": "arcade_night",
+   "font": "orbitron",
+   "artisans": {
+    "globe": "arcade_stick",
+    "123": "key_switch",
+    "shift": "retro_tv",
+    "bksp": "game_cartridge"
+   },
+   "tags": [
+    "arcade",
+    "retro",
+    "neon",
+    "games",
+    "carpet"
+   ],
+   "caps": "matte_arcade_night"
+  },
+  {
+   "id": "smoke_jelly",
+   "name": "Smoke jelly",
+   "category": "gaming",
+   "background": "smoke_jelly",
+   "font": "orbitron",
+   "artisans": {
+    "globe": "key_switch",
+    "shift": "lightning_bolt",
+    "bksp": "headphones",
+    "space": "rgb_glow"
+   },
+   "tags": [
+    "pudding",
+    "rgb",
+    "violet",
+    "dark",
+    "desk"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "record_store",
+   "name": "Record store",
+   "category": "classic",
+   "background": "record_store",
+   "font": "archivo",
+   "artisans": {
+    "return": "vinyl_record",
+    "globe": "headphones",
+    "123": "retro_tv"
+   },
+   "tags": [
+    "vinyl",
+    "music",
+    "wood",
+    "warm",
+    "retro"
+   ],
+   "caps": "matte_record_store"
+  },
+  {
+   "id": "graphite",
+   "name": "Graphite",
+   "category": "classic",
+   "background": "graphite",
+   "font": "clean",
+   "artisans": {
+    "globe": "key_switch",
+    "123": "lightning_bolt"
+   },
+   "tags": [
+    "grey",
+    "minimal",
+    "red",
+    "orange",
+    "clean"
+   ],
+   "caps": "matte_graphite"
+  },
+  {
+   "id": "hangul_milk",
+   "name": "Hangul milk",
+   "category": "classic",
+   "background": "hangul_milk",
+   "font": "do_hyeon",
+   "artisans": {
+    "globe": "butter_toast",
+    "123": "latte_heart",
+    "return": "milk_carton"
+   },
+   "tags": [
+    "korean",
+    "milk",
+    "latte",
+    "toast",
+    "beige"
+   ],
+   "caps": "matte_hangul_milk"
+  },
+  {
+   "id": "obsidian_glass",
+   "name": "Obsidian glass",
+   "category": "bright",
+   "background": "obsidian_glass",
+   "font": "michroma",
+   "artisans": {
+    "globe": "obsidian_shard",
+    "123": "diamond",
+    "bksp": "key_switch"
+   },
+   "tags": [
+    "black",
+    "glass",
+    "violet",
+    "dark",
+    "minimal"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#D9D0F0"
+  },
+  {
+   "id": "stone_january",
+   "name": "Garnet",
+   "category": "bright",
+   "background": "stone_january",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "january",
+    "garnet",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_february",
+   "name": "Amethyst",
+   "category": "bright",
+   "background": "stone_february",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "february",
+    "amethyst",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_march",
+   "name": "Aquamarine",
+   "category": "bright",
+   "background": "stone_march",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "march",
+    "aquamarine",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_april",
+   "name": "Diamond",
+   "category": "bright",
+   "background": "stone_april",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "april",
+    "diamond",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_may",
+   "name": "Emerald",
+   "category": "bright",
+   "background": "stone_may",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "may",
+    "emerald",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_june",
+   "name": "Pearl",
+   "category": "bright",
+   "background": "stone_june",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "june",
+    "pearl",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_july",
+   "name": "Ruby",
+   "category": "bright",
+   "background": "stone_july",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "july",
+    "ruby",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_august",
+   "name": "Peridot",
+   "category": "bright",
+   "background": "stone_august",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "august",
+    "peridot",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_september",
+   "name": "Sapphire",
+   "category": "bright",
+   "background": "stone_september",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "september",
+    "sapphire",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_october",
+   "name": "Opal",
+   "category": "bright",
+   "background": "stone_october",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "october",
+    "opal",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_november",
+   "name": "Topaz",
+   "category": "bright",
+   "background": "stone_november",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "november",
+    "topaz",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "stone_december",
+   "name": "Turquoise",
+   "category": "bright",
+   "background": "stone_december",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "birthstone",
+    "space": "birth_flower",
+    "globe": "ring_box"
+   },
+   "tags": [
+    "birthstone",
+    "flower",
+    "personal",
+    "velvet",
+    "gift",
+    "december",
+    "turquoise",
+    "birthday"
+   ],
+   "caps": "matte_birth_month"
+  },
+  {
+   "id": "pink_jelly",
+   "name": "Pink jelly",
+   "category": "bright",
+   "background": "pink_jelly",
+   "font": "baloo_2",
+   "artisans": {
+    "return": "jelly_heart",
+    "globe": "water_bubble",
+    "123": "gummy_bear"
+   },
+   "tags": [
+    "jelly",
+    "pink",
+    "bubbles",
+    "gummy",
+    "glossy"
+   ],
+   "caps": "matte_pink_jelly"
+  },
+  {
+   "id": "cozy_christmas",
+   "name": "Cozy Christmas",
+   "category": "seasonal",
+   "background": "cozy_christmas",
+   "font": "nunito",
+   "artisans": {
+    "return": "hot_cocoa",
+    "shift": "knit_stocking",
+    "123": "candy_cane",
+    "globe": "marsh_snowman",
+    "space": "fairy_garland"
+   },
+   "tags": [
+    "christmas",
+    "cosy",
+    "fireplace",
+    "cocoa",
+    "knit"
+   ],
+   "caps": "matte_cozy_christmas",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "pink_christmas",
+   "name": "Pink Christmas",
+   "category": "seasonal",
+   "background": "pink_christmas",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "pink_bauble",
+    "shift": "candy_cane",
+    "123": "ribbon_bow",
+    "space": "fairy_garland"
+   },
+   "tags": [
+    "christmas",
+    "pink",
+    "coquette",
+    "bows",
+    "pastel"
+   ],
+   "caps": "shape_pink_christmas",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "gingerbread_lane",
+   "name": "Gingerbread lane",
+   "category": "seasonal",
+   "background": "gingerbread_lane",
+   "font": "chewy",
+   "artisans": {
+    "globe": "gingerbread_man",
+    "return": "ginger_house",
+    "123": "gumdrop",
+    "shift": "candy_cane"
+   },
+   "tags": [
+    "gingerbread",
+    "christmas",
+    "cookies",
+    "icing",
+    "cosy"
+   ],
+   "caps": "matte_gingerbread_lane",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "golden_noel",
+   "name": "Golden Noel",
+   "category": "seasonal",
+   "background": "golden_noel",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "brass_bell",
+    "123": "gift_box",
+    "shift": "velvet_bow"
+   },
+   "tags": [
+    "christmas",
+    "gold",
+    "velvet",
+    "green",
+    "elegant"
+   ],
+   "caps": "matte_golden_noel",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "sugar_frost",
+   "name": "Sugar frost",
+   "category": "seasonal",
+   "background": "sugar_frost",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "pink_bauble",
+    "shift": "icicle",
+    "123": "ice_snowflake",
+    "return": "glass_globe"
+   },
+   "tags": [
+    "frost",
+    "winter",
+    "pastel",
+    "ice blue",
+    "pink"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#3A4A6B",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "snow_globe",
+   "name": "Snow globe",
+   "category": "seasonal",
+   "background": "snow_globe",
+   "font": "caveat",
+   "artisans": {
+    "return": "glass_globe",
+    "globe": "ice_snowflake",
+    "123": "candy_cane"
+   },
+   "tags": [
+    "snow globe",
+    "village",
+    "night",
+    "christmas",
+    "miniature"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "santa_paws",
+   "name": "Santa paws",
+   "category": "seasonal",
+   "background": "santa_paws",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "santa_kitty",
+    "123": "gift_box",
+    "shift": "snow_sammy",
+    "space": "sausage_dog"
+   },
+   "tags": [
+    "christmas",
+    "pets",
+    "kitten",
+    "gifts",
+    "cute"
+   ],
+   "caps": "matte_santa_paws",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "sign_aries",
+   "name": "Aries",
+   "category": "cozy",
+   "background": "sign_aries",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "aries",
+    "star sign",
+    "march"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_taurus",
+   "name": "Taurus",
+   "category": "cozy",
+   "background": "sign_taurus",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "taurus",
+    "star sign",
+    "april"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_gemini",
+   "name": "Gemini",
+   "category": "cozy",
+   "background": "sign_gemini",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "gemini",
+    "star sign",
+    "may"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_cancer",
+   "name": "Cancer",
+   "category": "cozy",
+   "background": "sign_cancer",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "cancer",
+    "star sign",
+    "june"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_leo",
+   "name": "Leo",
+   "category": "cozy",
+   "background": "sign_leo",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "leo",
+    "star sign",
+    "july"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_virgo",
+   "name": "Virgo",
+   "category": "cozy",
+   "background": "sign_virgo",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "virgo",
+    "star sign",
+    "august"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_libra",
+   "name": "Libra",
+   "category": "cozy",
+   "background": "sign_libra",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "libra",
+    "star sign",
+    "september"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_scorpio",
+   "name": "Scorpio",
+   "category": "cozy",
+   "background": "sign_scorpio",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "scorpio",
+    "star sign",
+    "october"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_sagittarius",
+   "name": "Sagittarius",
+   "category": "cozy",
+   "background": "sign_sagittarius",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "sagittarius",
+    "star sign",
+    "november"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_capricorn",
+   "name": "Capricorn",
+   "category": "cozy",
+   "background": "sign_capricorn",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "capricorn",
+    "star sign",
+    "december"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_aquarius",
+   "name": "Aquarius",
+   "category": "cozy",
+   "background": "sign_aquarius",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "aquarius",
+    "star sign",
+    "january"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "sign_pisces",
+   "name": "Pisces",
+   "category": "cozy",
+   "background": "sign_pisces",
+   "font": "raleway",
+   "artisans": {
+    "space": "constellation",
+    "return": "crescent_moon",
+    "globe": "crystal_point"
+   },
+   "tags": [
+    "zodiac",
+    "stars",
+    "gold",
+    "personal",
+    "navy",
+    "pisces",
+    "star sign",
+    "february"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F2D98A",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "celestial",
+   "name": "Celestial",
+   "category": "cozy",
+   "background": "celestial",
+   "font": "dm_serif_display",
+   "artisans": {
+    "return": "sun_moon",
+    "globe": "crystal_point",
+    "shift": "luna_moth",
+    "space": "moon_phases"
+   },
+   "tags": [
+    "moon",
+    "sun",
+    "whimsigoth",
+    "gold",
+    "black"
+   ],
+   "caps": "matte_celestial",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "crystal_gems",
+   "name": "Crystal gems",
+   "category": "bright",
+   "background": "crystal_gems",
+   "font": "comfortaa",
+   "artisans": {
+    "globe": "crystal_point",
+    "123": "amethyst",
+    "shift": "luna_moth",
+    "return": "sun_moon"
+   },
+   "tags": [
+    "crystals",
+    "gems",
+    "lilac",
+    "sparkle",
+    "glass"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#362553",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "opal_shimmer",
+   "name": "Opal shimmer",
+   "category": "bright",
+   "background": "opal_shimmer",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "opal_stone",
+    "123": "pearl",
+    "bksp": "scallop_shell"
+   },
+   "tags": [
+    "opal",
+    "iridescent",
+    "pearl",
+    "holographic",
+    "soft"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#5A5068",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "moon_phases",
+   "name": "Moon phases",
+   "category": "bright",
+   "background": "moon_phases",
+   "font": "michroma",
+   "artisans": {
+    "space": "moon_phases",
+    "return": "crescent_moon",
+    "globe": "silver_star"
+   },
+   "tags": [
+    "moon",
+    "phases",
+    "night",
+    "gold",
+    "minimal"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "dark_cherry",
+   "name": "Dark cherry",
+   "category": "cozy",
+   "background": "dark_cherry",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "dark_cherries",
+    "return": "black_rose",
+    "shift": "love_heart"
+   },
+   "tags": [
+    "cherry",
+    "wine",
+    "dark",
+    "romantic",
+    "velvet"
+   ],
+   "caps": "matte_dark_cherry",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "ribbon_lace",
+   "name": "Ribbon and lace",
+   "category": "cozy",
+   "background": "ribbon_lace",
+   "font": "dancing_script",
+   "artisans": {
+    "shift": "ribbon_bow",
+    "space": "pearl_strand",
+    "globe": "pearl",
+    "123": "lace_heart"
+   },
+   "tags": [
+    "coquette",
+    "bows",
+    "lace",
+    "blush",
+    "pearls"
+   ],
+   "caps": "shape_ribbon_lace",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "be_mine",
+   "name": "Be mine",
+   "category": "seasonal",
+   "background": "be_mine",
+   "font": "lobster",
+   "artisans": {
+    "return": "heart_box",
+    "globe": "candy_hearts",
+    "shift": "cupid_arrow",
+    "123": "heart_lolly",
+    "space": "heart_chain"
+   },
+   "tags": [
+    "valentine",
+    "candy hearts",
+    "pink",
+    "pastel",
+    "love"
+   ],
+   "caps": "shape_be_mine",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "heart_gummies",
+   "name": "Heart gummies",
+   "category": "seasonal",
+   "background": "heart_gummies",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "gummy_heart",
+    "123": "gummy_bear",
+    "shift": "heart_lolly",
+    "bksp": "candy_hearts"
+   },
+   "tags": [
+    "gummy",
+    "hearts",
+    "valentine",
+    "jelly",
+    "red"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#5B1D2C",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "goat_year",
+   "name": "Goat year",
+   "category": "seasonal",
+   "background": "goat_year",
+   "font": "clean",
+   "artisans": {
+    "space": "lucky_goat",
+    "globe": "mandarin"
+   },
+   "tags": [
+    "lunar new year",
+    "goat",
+    "red",
+    "gold",
+    "paper-cut"
+   ],
+   "caps": "matte_goat_year",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "ramadan_nights",
+   "name": "Ramadan nights",
+   "category": "seasonal",
+   "background": "ramadan_nights",
+   "font": "poppins",
+   "artisans": {
+    "return": "brass_lantern",
+    "globe": "crescent_star",
+    "123": "date_bowl"
+   },
+   "tags": [
+    "ramadan",
+    "lanterns",
+    "crescent",
+    "indigo",
+    "gold"
+   ],
+   "caps": "matte_ramadan_nights",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "dango_picnic",
+   "name": "Dango picnic",
+   "category": "cute",
+   "background": "dango_picnic",
+   "font": "gaegu",
+   "artisans": {
+    "globe": "dango_skewer",
+    "bksp": "matcha_bowl",
+    "space": "sakura_branch"
+   },
+   "tags": [
+    "dango",
+    "sakura",
+    "spring",
+    "tea",
+    "japanese"
+   ],
+   "caps": "matte_dango_picnic",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "bow_bunny",
+   "name": "Bow bunny",
+   "category": "animals",
+   "background": "bow_bunny",
+   "font": "varela_round",
+   "artisans": {
+    "globe": "lop_bunny",
+    "shift": "ribbon_bow",
+    "123": "bow_carrot"
+   },
+   "tags": [
+    "bunny",
+    "bow",
+    "gingham",
+    "pink",
+    "coquette"
+   ],
+   "caps": "matte_bow_bunny",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "koi_garden",
+   "name": "Koi garden",
+   "category": "animals",
+   "background": "koi_garden",
+   "font": "lexend",
+   "artisans": {
+    "return": "koi_pond",
+    "globe": "lotus",
+    "bksp": "lily_frog"
+   },
+   "tags": [
+    "koi",
+    "pond",
+    "japanese",
+    "teal",
+    "calm"
+   ],
+   "caps": "matte_koi_garden",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "fuji_morning",
+   "name": "Fuji morning",
+   "category": "nature",
+   "background": "fuji_morning",
+   "font": "montserrat",
+   "artisans": {
+    "return": "torii_mist",
+    "space": "fuji_peak",
+    "globe": "paper_crane",
+    "123": "onigiri"
+   },
+   "tags": [
+    "fuji",
+    "japanese",
+    "torii",
+    "dawn",
+    "woodblock"
+   ],
+   "caps": "matte_fuji_morning",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "tulip_field",
+   "name": "Tulip field",
+   "category": "nature",
+   "background": "tulip_field",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "tulip",
+    "return": "watering_can",
+    "123": "clog_shoe"
+   },
+   "tags": [
+    "tulips",
+    "spring",
+    "field",
+    "pink",
+    "sky"
+   ],
+   "caps": "matte_tulip_field",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "boba_shop",
+   "name": "Boba shop",
+   "category": "cute",
+   "background": "boba_shop",
+   "font": "round",
+   "artisans": {
+    "return": "boba_pearl",
+    "globe": "taiyaki",
+    "bksp": "swirl_pop"
+   },
+   "tags": [
+    "boba",
+    "milk tea",
+    "cafe",
+    "sweet",
+    "brown"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#4A2C1E",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "macarons",
+   "name": "Macarons",
+   "category": "cute",
+   "background": "macarons",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "macaron",
+    "space": "macaron_row",
+    "bksp": "pink_donut"
+   },
+   "tags": [
+    "pastel",
+    "sweet",
+    "patisserie",
+    "mint",
+    "lilac"
+   ],
+   "caps": "shape_macarons",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "sea_salt_soda",
+   "name": "Sea salt soda",
+   "category": "bright",
+   "background": "sea_salt_soda",
+   "font": "clean",
+   "artisans": {
+    "globe": "cherry_pair",
+    "123": "melon_soda",
+    "bksp": "water_bubble"
+   },
+   "tags": [
+    "soda",
+    "float",
+    "blue",
+    "cherry",
+    "fresh"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1C1C1E",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "honey_jar",
+   "name": "Honey jar",
+   "category": "bright",
+   "background": "honey_jar",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "honey_pot",
+    "space": "honey_dipper",
+    "shift": "bumble_bee",
+    "123": "daisy"
+   },
+   "tags": [
+    "honey",
+    "amber",
+    "bees",
+    "glass",
+    "warm"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#37240A",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "jelly_cups",
+   "name": "Jelly cups",
+   "category": "bright",
+   "background": "jelly_cups",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "jelly_peach",
+    "123": "melon_soda",
+    "bksp": "gummy_bear"
+   },
+   "tags": [
+    "jelly",
+    "fruit",
+    "pastel",
+    "japanese",
+    "sweet"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#392F34",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "sunflowers",
+   "name": "Sunflowers",
+   "category": "nature",
+   "background": "sunflowers",
+   "font": "clean",
+   "artisans": {
+    "globe": "sunflower",
+    "return": "watering_can"
+   },
+   "tags": [
+    "sunflower",
+    "yellow",
+    "painting",
+    "summer",
+    "bright"
+   ],
+   "caps": "matte_sunflowers",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "starry_swirl",
+   "name": "Starry swirl",
+   "category": "cozy",
+   "background": "starry_swirl",
+   "font": "fraunces",
+   "artisans": {
+    "return": "crescent_moon",
+    "globe": "comet",
+    "shift": "crystal_point"
+   },
+   "tags": [
+    "painting",
+    "night",
+    "swirl",
+    "blue",
+    "art"
+   ],
+   "caps": "matte_starry_swirl",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "ink_wash",
+   "name": "Ink wash",
+   "category": "classic",
+   "background": "ink_wash",
+   "font": "nanum_pen_script",
+   "artisans": {
+    "space": "ink_hills",
+    "globe": "red_seal",
+    "shift": "ink_brush"
+   },
+   "tags": [
+    "ink",
+    "mountains",
+    "paper",
+    "zen",
+    "japanese"
+   ],
+   "caps": "matte_ink_wash",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "gold_leaf",
+   "name": "Gold leaf",
+   "category": "classic",
+   "background": "gold_leaf",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "gold_leaf",
+    "globe": "gold_coin",
+    "123": "gold_bar"
+   },
+   "tags": [
+    "gold",
+    "mosaic",
+    "klimt",
+    "black",
+    "art"
+   ],
+   "caps": "matte_gold_leaf",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "big_wave",
+   "name": "Big wave",
+   "category": "classic",
+   "background": "big_wave",
+   "font": "montserrat",
+   "artisans": {
+    "return": "great_wave",
+    "space": "wave_crest",
+    "globe": "red_seal"
+   },
+   "tags": [
+    "wave",
+    "woodblock",
+    "indigo",
+    "japanese",
+    "sea"
+   ],
+   "caps": "matte_big_wave",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "pudding_pup",
+   "name": "Pudding pup",
+   "category": "animals",
+   "background": "pudding_pup",
+   "font": "round",
+   "artisans": {
+    "globe": "golden_pup",
+    "123": "dog_bone",
+    "space": "sleepy_pup"
+   },
+   "tags": [
+    "puppy",
+    "cream",
+    "caramel",
+    "cute",
+    "soft"
+   ],
+   "caps": "matte_pudding_pup",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "beach_day",
+   "name": "Beach day",
+   "category": "nature",
+   "background": "beach_day",
+   "font": "pacifico",
+   "artisans": {
+    "globe": "scallop_shell",
+    "space": "towel_cat",
+    "123": "ice_lolly",
+    "bksp": "beach_ball"
+   },
+   "tags": [
+    "beach",
+    "summer",
+    "sea",
+    "sand",
+    "cat"
+   ],
+   "caps": "matte_beach_day",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "melon_slice",
+   "name": "Melon slice",
+   "category": "seasonal",
+   "background": "melon_slice",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "ice_lolly",
+    "shift": "beach_ball",
+    "123": "melon_soda"
+   },
+   "tags": [
+    "watermelon",
+    "summer",
+    "mint",
+    "red",
+    "picnic"
+   ],
+   "caps": "matte_melon_slice",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "shave_ice",
+   "name": "Shave ice",
+   "category": "seasonal",
+   "background": "shave_ice",
+   "font": "sunflower",
+   "artisans": {
+    "return": "bingsu_bowl",
+    "globe": "strawberry",
+    "123": "melon_soda"
+   },
+   "tags": [
+    "bingsu",
+    "kakigori",
+    "summer",
+    "mango",
+    "pastel"
+   ],
+   "caps": "matte_shave_ice",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "firefly_night",
+   "name": "Firefly night",
+   "category": "nature",
+   "background": "firefly_night",
+   "font": "clean",
+   "artisans": {
+    "return": "firefly_jar",
+    "globe": "round_owl",
+    "bksp": "hedgie_ball"
+   },
+   "tags": [
+    "fireflies",
+    "night",
+    "meadow",
+    "glow",
+    "summer"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "campfire",
+   "name": "Campfire",
+   "category": "nature",
+   "background": "campfire",
+   "font": "archivo",
+   "artisans": {
+    "return": "campfire",
+    "globe": "mallow_stick",
+    "123": "camp_lantern",
+    "shift": "pine_tree"
+   },
+   "tags": [
+    "camping",
+    "fire",
+    "pines",
+    "stars",
+    "outdoors"
+   ],
+   "caps": "matte_campfire",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "shooting_stars",
+   "name": "Shooting stars",
+   "category": "nature",
+   "background": "shooting_stars",
+   "font": "michroma",
+   "artisans": {
+    "globe": "comet",
+    "return": "galaxy_drift",
+    "123": "astronaut"
+   },
+   "tags": [
+    "meteor",
+    "night",
+    "stars",
+    "navy",
+    "wish"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "the_deep",
+   "name": "The deep",
+   "category": "gaming",
+   "background": "the_deep",
+   "font": "exo_2",
+   "artisans": {
+    "space": "deep_kraken",
+    "globe": "shark",
+    "123": "anchor"
+   },
+   "tags": [
+    "kraken",
+    "ocean",
+    "dark",
+    "teal",
+    "horror"
+   ],
+   "caps": "matte_the_deep",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "deep_sea_glow",
+   "name": "Deep sea glow",
+   "category": "bright",
+   "background": "deep_sea_glow",
+   "font": "exo_2",
+   "artisans": {
+    "return": "jellyfish",
+    "123": "baby_octopus",
+    "globe": "water_bubble",
+    "bksp": "sea_turtle"
+   },
+   "tags": [
+    "jellyfish",
+    "ocean",
+    "glow",
+    "teal",
+    "night"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "pencil_case",
+   "name": "Study nook",
+   "category": "cozy",
+   "background": "pencil_case",
+   "font": "caveat",
+   "artisans": {
+    "globe": "latte_heart",
+    "shift": "pencil",
+    "123": "eraser"
+   },
+   "tags": [
+    "study",
+    "desk",
+    "notes",
+    "pastel",
+    "cosy"
+   ],
+   "caps": "matte_pencil_case",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "study_lamp",
+   "name": "Study lamp",
+   "category": "cozy",
+   "background": "study_lamp",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "desk_lamp",
+    "return": "hot_cocoa",
+    "shift": "fountain_pen",
+    "123": "round_owl"
+   },
+   "tags": [
+    "study",
+    "night",
+    "books",
+    "amber",
+    "poetcore"
+   ],
+   "caps": "matte_study_lamp",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "checkerboard",
+   "name": "Checkerboard",
+   "category": "bright",
+   "background": "checkerboard",
+   "font": "rubik",
+   "artisans": {
+    "globe": "flower_face",
+    "space": "skateboard",
+    "123": "swirl_pop"
+   },
+   "tags": [
+    "checker",
+    "wavy",
+    "skate",
+    "pastel",
+    "y2k"
+   ],
+   "caps": "matte_checkerboard",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "inkwell",
+   "name": "Inkwell",
+   "category": "classic",
+   "background": "inkwell",
+   "font": "libre_baskerville",
+   "artisans": {
+    "return": "sealed_envelope",
+    "globe": "wax_seal",
+    "shift": "fountain_pen",
+    "123": "candle_glow"
+   },
+   "tags": [
+    "ink",
+    "letters",
+    "wax seal",
+    "candle",
+    "academia"
+   ],
+   "caps": "matte_inkwell",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "raven_moon",
+   "name": "Raven moon",
+   "category": "animals",
+   "background": "raven_moon",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "night_raven",
+    "return": "crescent_moon",
+    "123": "brass_key"
+   },
+   "tags": [
+    "raven",
+    "moon",
+    "dark",
+    "linocut",
+    "gothic"
+   ],
+   "caps": "matte_raven_moon",
+   "since": "2027-09-01"
+  },
+  {
+   "id": "harvest_moon",
+   "name": "Harvest moon",
+   "category": "seasonal",
+   "background": "harvest_moon",
+   "font": "sunflower",
+   "artisans": {
+    "return": "moon_rabbit",
+    "globe": "mooncake",
+    "123": "persimmon"
+   },
+   "tags": [
+    "moon",
+    "rabbit",
+    "mid-autumn",
+    "mooncake",
+    "korean"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-09-01"
+  },
+  {
+   "id": "black_cat",
+   "name": "Black cat",
+   "category": "animals",
+   "background": "black_cat",
+   "font": "raleway",
+   "artisans": {
+    "globe": "black_kitty",
+    "return": "crescent_moon",
+    "space": "cat_tail",
+    "123": "pumpkin"
+   },
+   "tags": [
+    "black cat",
+    "moon",
+    "night",
+    "goth",
+    "halloween"
+   ],
+   "caps": "matte_black_cat",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "cute_ghosts",
+   "name": "Cute ghosts",
+   "category": "seasonal",
+   "background": "cute_ghosts",
+   "font": "sniglet",
+   "artisans": {
+    "globe": "little_ghost",
+    "space": "bat_flight",
+    "123": "pumpkin",
+    "return": "candy_bucket"
+   },
+   "tags": [
+    "ghost",
+    "halloween",
+    "pastel",
+    "kawaii",
+    "lilac"
+   ],
+   "caps": "shape_cute_ghosts",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "little_witch",
+   "name": "Little witch",
+   "category": "seasonal",
+   "background": "little_witch",
+   "font": "patrick_hand",
+   "artisans": {
+    "globe": "black_kitty",
+    "return": "cauldron",
+    "123": "potion_bottle",
+    "space": "witch_broom",
+    "shift": "spellbook"
+   },
+   "tags": [
+    "witch",
+    "halloween",
+    "potions",
+    "plum",
+    "cat"
+   ],
+   "caps": "matte_little_witch",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "graveyard_moon",
+   "name": "Graveyard moon",
+   "category": "seasonal",
+   "background": "graveyard_moon",
+   "font": "dm_serif_display",
+   "artisans": {
+    "shift": "night_raven",
+    "globe": "tombstone",
+    "return": "red_moon",
+    "space": "bat_flight",
+    "123": "skull_bone"
+   },
+   "tags": [
+    "graveyard",
+    "halloween",
+    "fog",
+    "dark",
+    "raven"
+   ],
+   "caps": "matte_graveyard_moon",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "haunted_library",
+   "name": "Haunted library",
+   "category": "seasonal",
+   "background": "haunted_library",
+   "font": "libre_baskerville",
+   "artisans": {
+    "shift": "spellbook",
+    "123": "candle_glow",
+    "globe": "round_owl",
+    "bksp": "secret_scroll"
+   },
+   "tags": [
+    "library",
+    "halloween",
+    "candles",
+    "owl",
+    "dark academia"
+   ],
+   "caps": "matte_haunted_library",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "pumpkin_patch",
+   "name": "Pumpkin patch",
+   "category": "seasonal",
+   "background": "pumpkin_patch",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "round_owl",
+    "123": "acorn",
+    "return": "crescent_moon"
+   },
+   "tags": [
+    "pumpkin",
+    "autumn",
+    "hay",
+    "orange",
+    "harvest"
+   ],
+   "caps": "matte_pumpkin_patch",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "marigold_night",
+   "name": "Marigold night",
+   "category": "seasonal",
+   "background": "marigold_night",
+   "font": "righteous",
+   "artisans": {
+    "globe": "sugar_skull",
+    "123": "marigold",
+    "space": "papel_banner",
+    "shift": "candle_glow"
+   },
+   "tags": [
+    "dia de muertos",
+    "marigold",
+    "papel picado",
+    "magenta",
+    "candles"
+   ],
+   "caps": "matte_marigold_night",
+   "since": "2027-10-01"
+  },
+  {
+   "id": "mushroom_forest",
+   "name": "Mushroom forest",
+   "category": "nature",
+   "background": "mushroom_forest",
+   "font": "patrick_hand",
+   "artisans": {
+    "return": "moss_cottage",
+    "globe": "red_mushroom",
+    "123": "acorn",
+    "bksp": "lily_frog"
+   },
+   "tags": [
+    "mushroom",
+    "moss",
+    "cottagecore",
+    "forest",
+    "autumn"
+   ],
+   "caps": "matte_mushroom_forest",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "midnight_bloom",
+   "name": "Midnight bloom",
+   "category": "cozy",
+   "background": "midnight_bloom",
+   "font": "fraunces",
+   "artisans": {
+    "return": "peony",
+    "globe": "luna_moth",
+    "bksp": "ladybug"
+   },
+   "tags": [
+    "dark floral",
+    "moth",
+    "cottagecore",
+    "green",
+    "vintage"
+   ],
+   "caps": "matte_midnight_bloom",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "cozy_knit",
+   "name": "Cozy knit",
+   "category": "cozy",
+   "background": "cozy_knit",
+   "font": "nunito",
+   "artisans": {
+    "globe": "yarn_ball",
+    "return": "hot_cocoa",
+    "shift": "knit_needles",
+    "space": "knit_scarf"
+   },
+   "tags": [
+    "knit",
+    "sweater",
+    "oat",
+    "warm",
+    "autumn"
+   ],
+   "caps": "matte_cozy_knit",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "maple_lane",
+   "name": "Maple lane",
+   "category": "seasonal",
+   "background": "maple_lane",
+   "font": "caveat",
+   "artisans": {
+    "globe": "maple_leaf",
+    "123": "acorn",
+    "shift": "squirrel_pal",
+    "bksp": "hedgie_ball"
+   },
+   "tags": [
+    "maple",
+    "autumn",
+    "amber",
+    "leaves",
+    "walk"
+   ],
+   "caps": "matte_maple_lane",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "apple_orchard",
+   "name": "Apple orchard",
+   "category": "seasonal",
+   "background": "apple_orchard",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "red_apple",
+    "return": "lattice_pie",
+    "123": "hot_cocoa",
+    "shift": "bumble_bee"
+   },
+   "tags": [
+    "apples",
+    "orchard",
+    "pie",
+    "autumn",
+    "red"
+   ],
+   "caps": "matte_apple_orchard",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "polar_bear",
+   "name": "Polar bear",
+   "category": "animals",
+   "background": "polar_bear",
+   "font": "nunito",
+   "artisans": {
+    "globe": "polar_pal",
+    "space": "polar_nap",
+    "123": "ice_snowflake"
+   },
+   "tags": [
+    "polar bear",
+    "ice",
+    "winter",
+    "arctic",
+    "white"
+   ],
+   "caps": "matte_polar_bear",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "snowy_owl",
+   "name": "Snowy owl",
+   "category": "animals",
+   "background": "snowy_owl",
+   "font": "clean",
+   "artisans": {
+    "globe": "snowy_owl",
+    "return": "crescent_moon",
+    "123": "pine_tree",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "owl",
+    "snow",
+    "night",
+    "forest",
+    "winter"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "art_deco",
+   "name": "Art deco",
+   "category": "classic",
+   "background": "art_deco",
+   "font": "raleway",
+   "artisans": {
+    "return": "gold_fan",
+    "globe": "diamond",
+    "123": "gold_coin"
+   },
+   "tags": [
+    "deco",
+    "emerald",
+    "gold",
+    "fans",
+    "1920s"
+   ],
+   "caps": "matte_art_deco",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "ski_lodge",
+   "name": "Ski lodge",
+   "category": "seasonal",
+   "background": "ski_lodge",
+   "font": "oswald",
+   "artisans": {
+    "return": "hot_cocoa",
+    "space": "knit_scarf",
+    "globe": "pine_tree",
+    "123": "snow_sammy"
+   },
+   "tags": [
+    "ski",
+    "lodge",
+    "retro",
+    "navy",
+    "winter"
+   ],
+   "caps": "matte_ski_lodge",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "strawberry_patch",
+   "name": "Strawberry patch",
+   "category": "animals",
+   "background": "strawberry_patch",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "strawberry",
+    "123": "toe_beans",
+    "bksp": "shortcake",
+    "space": "sleepy_cat"
+   },
+   "tags": [
+    "cat",
+    "strawberry",
+    "garden",
+    "red",
+    "cute"
+   ],
+   "caps": "matte_strawberry_patch"
+  },
+  {
+   "id": "mycat_ginger",
+   "name": "My ginger cat",
+   "category": "animals",
+   "background": "mycat_ginger",
+   "font": "nunito",
+   "artisans": {
+    "globe": "ginger_face",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "ginger",
+    "orange cat"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_black",
+   "name": "My black cat",
+   "category": "animals",
+   "background": "mycat_black",
+   "font": "nunito",
+   "artisans": {
+    "globe": "black_kitty",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "black cat"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_white",
+   "name": "My white cat",
+   "category": "animals",
+   "background": "mycat_white",
+   "font": "nunito",
+   "artisans": {
+    "globe": "cloud_persian",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "white cat",
+    "persian"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_grey",
+   "name": "My grey cat",
+   "category": "animals",
+   "background": "mycat_grey",
+   "font": "nunito",
+   "artisans": {
+    "globe": "blue_face",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "grey cat",
+    "russian blue"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_tabby",
+   "name": "My tabby cat",
+   "category": "animals",
+   "background": "mycat_tabby",
+   "font": "nunito",
+   "artisans": {
+    "globe": "tabby_face",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "tabby"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_calico",
+   "name": "My calico cat",
+   "category": "animals",
+   "background": "mycat_calico",
+   "font": "nunito",
+   "artisans": {
+    "globe": "calico_face",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "calico"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_tuxedo",
+   "name": "My tuxedo cat",
+   "category": "animals",
+   "background": "mycat_tuxedo",
+   "font": "nunito",
+   "artisans": {
+    "globe": "tuxedo_kitty",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "tuxedo"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "mycat_colourpoint",
+   "name": "My colourpoint",
+   "category": "animals",
+   "background": "mycat_colourpoint",
+   "font": "nunito",
+   "artisans": {
+    "globe": "ragdoll_face",
+    "123": "toe_beans",
+    "bksp": "fish_treat",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cat",
+    "personal",
+    "coat",
+    "garden",
+    "yours",
+    "ragdoll",
+    "siamese"
+   ],
+   "caps": "matte_my_cat_coat"
+  },
+  {
+   "id": "clementine_cat",
+   "name": "Orange tabby",
+   "category": "animals",
+   "background": "clementine_cat",
+   "font": "round",
+   "artisans": {
+    "globe": "ginger_face",
+    "123": "mandarin",
+    "bksp": "toe_beans",
+    "space": "orange_nap"
+   },
+   "tags": [
+    "cat",
+    "orange",
+    "clementine",
+    "peach",
+    "funny"
+   ],
+   "caps": "matte_clementine_cat"
+  },
+  {
+   "id": "fence_kittens",
+   "name": "Fence kittens",
+   "category": "cute",
+   "background": "fence_kittens",
+   "font": "jua",
+   "artisans": {
+    "space": "kitten_fence",
+    "globe": "calico_face",
+    "123": "ginger_face",
+    "shift": "tuxedo_kitty",
+    "bksp": "garden_rose"
+   },
+   "tags": [
+    "kittens",
+    "fence",
+    "roses",
+    "collect",
+    "cute"
+   ],
+   "caps": "matte_fence_kittens"
+  },
+  {
+   "id": "wildflower_meadow",
+   "name": "Wildflowers",
+   "category": "nature",
+   "background": "wildflower_meadow",
+   "font": "fraunces",
+   "artisans": {
+    "space": "meadow_strip",
+    "globe": "poppy",
+    "123": "cornflower",
+    "bksp": "daisy",
+    "shift": "bumble_bee"
+   },
+   "tags": [
+    "wildflowers",
+    "poppy",
+    "cornflower",
+    "meadow",
+    "cottagecore"
+   ],
+   "caps": "matte_wildflower_meadow"
+  },
+  {
+   "id": "cherry_bows",
+   "name": "Cherry bows",
+   "category": "cute",
+   "background": "cherry_bows",
+   "font": "pacifico",
+   "artisans": {
+    "globe": "cherry_bow",
+    "123": "satin_bow",
+    "bksp": "cherry_pair",
+    "shift": "tiny_heart"
+   },
+   "tags": [
+    "cherries",
+    "bows",
+    "coquette",
+    "red",
+    "gingham"
+   ],
+   "caps": "matte_cherry_bows"
+  },
+  {
+   "id": "leaf_pile_kitten",
+   "name": "Leaf pile kitten",
+   "category": "animals",
+   "background": "leaf_pile_kitten",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "maple_leaf",
+    "123": "acorn",
+    "bksp": "toe_beans",
+    "space": "leaf_kitten"
+   },
+   "tags": [
+    "kitten",
+    "autumn",
+    "leaves",
+    "ginger",
+    "cosy"
+   ],
+   "caps": "matte_leaf_pile_kitten"
+  },
+  {
+   "id": "catnip_garden",
+   "name": "Catnip garden",
+   "category": "animals",
+   "background": "catnip_garden",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "toy_mouse",
+    "123": "herb_bundle",
+    "bksp": "terracotta_pot",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "herbs",
+    "catnip",
+    "sunny",
+    "funny"
+   ],
+   "caps": "matte_catnip_garden"
+  },
+  {
+   "id": "ragdoll_roses",
+   "name": "Ragdoll",
+   "category": "animals",
+   "background": "ragdoll_roses",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "ragdoll_face",
+    "123": "garden_rose",
+    "bksp": "toe_beans",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "cat",
+    "ragdoll",
+    "fluffy",
+    "roses",
+    "cream"
+   ],
+   "caps": "matte_ragdoll_roses"
+  },
+  {
+   "id": "british_blue",
+   "name": "British blue",
+   "category": "animals",
+   "background": "british_blue",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "british_face",
+    "123": "floral_teacup",
+    "bksp": "cornflower",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "british shorthair",
+    "teapot",
+    "cornflower",
+    "blue"
+   ],
+   "caps": "matte_british_blue"
+  },
+  {
+   "id": "odd_couple",
+   "name": "Odd couple",
+   "category": "animals",
+   "background": "odd_couple",
+   "font": "clean",
+   "artisans": {
+    "globe": "ginger_face",
+    "123": "fish_treat",
+    "bksp": "tiny_heart"
+   },
+   "tags": [
+    "cats",
+    "orange",
+    "tuxedo",
+    "bench",
+    "funny"
+   ],
+   "caps": "matte_odd_couple"
+  },
+  {
+   "id": "maine_coon_porch",
+   "name": "Maine coon",
+   "category": "animals",
+   "background": "maine_coon_porch",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "coon_face",
+    "123": "big_paw",
+    "bksp": "fern_frond",
+    "return": "garden_bench"
+   },
+   "tags": [
+    "cat",
+    "maine coon",
+    "porch",
+    "ferns",
+    "forest"
+   ],
+   "caps": "matte_maine_coon_porch"
+  },
+  {
+   "id": "lucky_calico",
+   "name": "Lucky calico",
+   "category": "animals",
+   "background": "lucky_calico",
+   "font": "do_hyeon",
+   "artisans": {
+    "return": "lucky_calico_cat",
+    "globe": "calico_face",
+    "123": "gold_coin",
+    "shift": "brass_bell"
+   },
+   "tags": [
+    "cat",
+    "calico",
+    "lucky",
+    "red",
+    "japanese"
+   ],
+   "caps": "matte_lucky_calico"
+  },
+  {
+   "id": "persian_pearl",
+   "name": "Persian pearl",
+   "category": "animals",
+   "background": "persian_pearl",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "cloud_persian",
+    "123": "pearl",
+    "bksp": "blush_peony",
+    "shift": "lace_heart"
+   },
+   "tags": [
+    "cat",
+    "persian",
+    "pearls",
+    "lace",
+    "white"
+   ],
+   "caps": "matte_persian_pearl"
+  },
+  {
+   "id": "flower_basin",
+   "name": "Flower basin",
+   "category": "nature",
+   "background": "flower_basin",
+   "font": "lexend",
+   "artisans": {
+    "return": "bloom_basin",
+    "globe": "blush_peony",
+    "123": "hydrangea_ball",
+    "bksp": "camellia_bloom"
+   },
+   "tags": [
+    "flowers",
+    "water",
+    "stone",
+    "japanese",
+    "calm"
+   ],
+   "caps": "matte_flower_basin"
+  },
+  {
+   "id": "secret_door",
+   "name": "Secret door",
+   "category": "nature",
+   "background": "secret_door",
+   "font": "libre_baskerville",
+   "artisans": {
+    "return": "old_door",
+    "globe": "brass_key",
+    "123": "robin",
+    "bksp": "fern_frond"
+   },
+   "tags": [
+    "door",
+    "ivy",
+    "garden",
+    "storybook",
+    "stone"
+   ],
+   "caps": "matte_secret_door"
+  },
+  {
+   "id": "flower_cart",
+   "name": "Flower cart",
+   "category": "cozy",
+   "background": "flower_cart",
+   "font": "fraunces",
+   "artisans": {
+    "space": "flower_stall",
+    "globe": "tulip",
+    "123": "ranun_bloom",
+    "bksp": "blush_peony"
+   },
+   "tags": [
+    "flowers",
+    "market",
+    "tulips",
+    "peonies",
+    "street"
+   ],
+   "caps": "matte_flower_cart"
+  },
+  {
+   "id": "blush_peonies",
+   "name": "Blush peonies",
+   "category": "cozy",
+   "background": "blush_peonies",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "blush_peony",
+    "return": "peony",
+    "123": "bumble_bee",
+    "bksp": "petal"
+   },
+   "tags": [
+    "peony",
+    "blush",
+    "pink",
+    "floral",
+    "soft"
+   ],
+   "caps": "matte_blush_peonies"
+  },
+  {
+   "id": "lilac_bloom",
+   "name": "Lilac",
+   "category": "cozy",
+   "background": "lilac_bloom",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "lilac_cluster",
+    "return": "lilac_jar",
+    "123": "white_butterfly",
+    "bksp": "petal"
+   },
+   "tags": [
+    "lilac",
+    "purple",
+    "spring",
+    "soft",
+    "floral"
+   ],
+   "caps": "matte_lilac_bloom"
+  },
+  {
+   "id": "blush_roses",
+   "name": "Blush roses",
+   "category": "cozy",
+   "background": "blush_roses",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "garden_rose",
+    "123": "rosebud",
+    "bksp": "pearl",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "roses",
+    "blush",
+    "apricot",
+    "romantic",
+    "floral"
+   ],
+   "caps": "matte_blush_roses"
+  },
+  {
+   "id": "hedgehog_leaves",
+   "name": "Hedgehog",
+   "category": "animals",
+   "background": "hedgehog_leaves",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "hedgie_ball",
+    "123": "beech_leaf",
+    "bksp": "pinecone"
+   },
+   "tags": [
+    "hedgehog",
+    "autumn",
+    "leaves",
+    "mushroom",
+    "cosy"
+   ],
+   "caps": "matte_hedgehog_leaves"
+  },
+  {
+   "id": "glasshouse_cafe",
+   "name": "Glasshouse cafe",
+   "category": "cozy",
+   "background": "glasshouse_cafe",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "latte_heart",
+    "123": "croissant",
+    "bksp": "monstera",
+    "return": "flower_cake"
+   },
+   "tags": [
+    "cafe",
+    "greenhouse",
+    "latte",
+    "plants",
+    "green"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#24463A"
+  },
+  {
+   "id": "cake_picnic",
+   "name": "Cake picnic",
+   "category": "cute",
+   "background": "cake_picnic",
+   "font": "sniglet",
+   "artisans": {
+    "return": "flower_cake",
+    "globe": "floral_teacup",
+    "123": "cherry_pair",
+    "bksp": "strawberry"
+   },
+   "tags": [
+    "cake",
+    "picnic",
+    "buttercream",
+    "flowers",
+    "gingham"
+   ],
+   "caps": "shape_cake_picnic"
+  },
+  {
+   "id": "floral_embroidery",
+   "name": "Embroidery",
+   "category": "cozy",
+   "background": "floral_embroidery",
+   "font": "fraunces",
+   "artisans": {
+    "return": "embroidery_hoop",
+    "globe": "thread_spool",
+    "123": "stitched_flower",
+    "bksp": "button"
+   },
+   "tags": [
+    "embroidery",
+    "linen",
+    "craft",
+    "roses",
+    "stitch"
+   ],
+   "caps": "matte_floral_embroidery"
+  },
+  {
+   "id": "perfume_garden",
+   "name": "Perfume garden",
+   "category": "cozy",
+   "background": "perfume_garden",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "perfume_bottle",
+    "123": "pearl",
+    "bksp": "ring_box",
+    "shift": "garden_rose"
+   },
+   "tags": [
+    "perfume",
+    "vanity",
+    "roses",
+    "glass",
+    "gold"
+   ],
+   "caps": "matte_perfume_garden"
+  },
+  {
+   "id": "dark_wildflowers",
+   "name": "Dark wildflowers",
+   "category": "cozy",
+   "background": "dark_wildflowers",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "foxglove",
+    "123": "brown_moth",
+    "bksp": "crow_feather",
+    "return": "peony"
+   },
+   "tags": [
+    "dark cottagecore",
+    "foxglove",
+    "moth",
+    "green",
+    "adult"
+   ],
+   "caps": "matte_dark_wildflowers"
+  },
+  {
+   "id": "wreath_kitten",
+   "name": "Wreath kitten",
+   "category": "seasonal",
+   "background": "wreath_kitten",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "dried_wreath",
+    "globe": "rosebud",
+    "123": "pine_tree",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "kitten",
+    "wreath",
+    "winter",
+    "blush",
+    "christmas"
+   ],
+   "caps": "matte_wreath_kitten",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "blush_poinsettia",
+   "name": "Blush poinsettia",
+   "category": "seasonal",
+   "background": "blush_poinsettia",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "poinsettia",
+    "123": "pink_bauble",
+    "shift": "pine_tree",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "poinsettia",
+    "pink christmas",
+    "winter",
+    "blush",
+    "paper"
+   ],
+   "caps": "matte_blush_poinsettia",
+   "since": "2026-12-01"
+  },
+  {
+   "id": "winter_lights",
+   "name": "Winter lights",
+   "category": "bright",
+   "background": "winter_lights",
+   "font": "michroma",
+   "artisans": {
+    "space": "light_tunnel",
+    "globe": "light_bulb",
+    "123": "hot_cocoa",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "illuminations",
+    "night",
+    "winter",
+    "lights",
+    "navy"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "moon_garden",
+   "name": "Moon garden",
+   "category": "nature",
+   "background": "moon_garden",
+   "font": "raleway",
+   "artisans": {
+    "return": "crescent_moon",
+    "globe": "moonflower",
+    "123": "silver_star",
+    "bksp": "brown_moth"
+   },
+   "tags": [
+    "moon",
+    "night",
+    "white flowers",
+    "silver",
+    "romantic"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-01-01"
+  },
+  {
+   "id": "cat_bouquet",
+   "name": "Cat bouquet",
+   "category": "animals",
+   "background": "cat_bouquet",
+   "font": "quicksand",
+   "artisans": {
+    "return": "bouquet_cats",
+    "globe": "calico_face",
+    "123": "blush_peony",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "cat",
+    "bouquet",
+    "peony",
+    "gift",
+    "blush"
+   ],
+   "caps": "matte_cat_bouquet",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "plum_blossom",
+   "name": "Plum blossom",
+   "category": "seasonal",
+   "background": "plum_blossom",
+   "font": "sunflower",
+   "artisans": {
+    "globe": "plum_sprig",
+    "123": "mandarin",
+    "shift": "red_envelope"
+   },
+   "tags": [
+    "plum",
+    "blossom",
+    "lunar new year",
+    "gold",
+    "february"
+   ],
+   "caps": "matte_plum_blossom",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "heart_wreath",
+   "name": "Heart wreath",
+   "category": "seasonal",
+   "background": "heart_wreath",
+   "font": "pacifico",
+   "artisans": {
+    "return": "rose_heart",
+    "globe": "rosebud",
+    "123": "eucalyptus",
+    "bksp": "brass_key"
+   },
+   "tags": [
+    "valentine",
+    "wreath",
+    "roses",
+    "eucalyptus",
+    "door"
+   ],
+   "caps": "shape_heart_wreath",
+   "since": "2027-02-01"
+  },
+  {
+   "id": "sakura_nap",
+   "name": "Sakura nap",
+   "category": "animals",
+   "background": "sakura_nap",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "paw_petal",
+    "123": "sakura_bloom",
+    "bksp": "matcha_bowl",
+    "space": "branch_cat"
+   },
+   "tags": [
+    "cat",
+    "sakura",
+    "spring",
+    "pink",
+    "japanese"
+   ],
+   "caps": "matte_sakura_nap",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "wisteria_tunnel",
+   "name": "Wisteria tunnel",
+   "category": "nature",
+   "background": "wisteria_tunnel",
+   "font": "raleway",
+   "artisans": {
+    "space": "wisteria_arch",
+    "globe": "wisteria_bunch",
+    "123": "pearl",
+    "bksp": "folding_fan"
+   },
+   "tags": [
+    "wisteria",
+    "purple",
+    "spring",
+    "japanese",
+    "dreamy"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#3B2A5C",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "night_sakura",
+   "name": "Night sakura",
+   "category": "nature",
+   "background": "night_sakura",
+   "font": "dm_serif_display",
+   "artisans": {
+    "space": "night_moat",
+    "return": "paper_lantern",
+    "globe": "sakura_bloom",
+    "123": "petal"
+   },
+   "tags": [
+    "sakura",
+    "night",
+    "lanterns",
+    "indigo",
+    "japanese"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFE3EC",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "birds_nest",
+   "name": "Birds nest",
+   "category": "nature",
+   "background": "birds_nest",
+   "font": "fraunces",
+   "artisans": {
+    "return": "egg_nest",
+    "globe": "blue_egg",
+    "123": "robin",
+    "bksp": "sakura_bloom"
+   },
+   "tags": [
+    "nest",
+    "blue eggs",
+    "blossom",
+    "spring",
+    "bluebird"
+   ],
+   "caps": "matte_birds_nest",
+   "since": "2027-03-01"
+  },
+  {
+   "id": "butterfly_house",
+   "name": "Butterfly house",
+   "category": "bright",
+   "background": "butterfly_house",
+   "font": "comfortaa",
+   "artisans": {
+    "globe": "morpho",
+    "123": "blush_peony",
+    "bksp": "petal",
+    "shift": "white_butterfly"
+   },
+   "tags": [
+    "butterfly",
+    "morpho",
+    "blue",
+    "glasshouse",
+    "tropical"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#5C2A4F",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "petal_jelly",
+   "name": "Petal jelly",
+   "category": "bright",
+   "background": "petal_jelly",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "flower_jelly",
+    "123": "glass_spoon",
+    "bksp": "petal",
+    "return": "jelly_heart"
+   },
+   "tags": [
+    "jelly",
+    "flowers",
+    "clear",
+    "pink",
+    "dessert"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#B3235B",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "flower_tea",
+   "name": "Flower tea",
+   "category": "bright",
+   "background": "flower_tea",
+   "font": "fraunces",
+   "artisans": {
+    "return": "glass_teapot",
+    "globe": "rosebud",
+    "123": "floral_teacup",
+    "bksp": "honey_pot"
+   },
+   "tags": [
+    "tea",
+    "glass",
+    "rosebud",
+    "amber",
+    "cosy"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#4A2E1A",
+   "since": "2027-04-01"
+  },
+  {
+   "id": "herb_apothecary",
+   "name": "Herb apothecary",
+   "category": "cozy",
+   "background": "herb_apothecary",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "mortar_pestle",
+    "123": "honey_pot",
+    "bksp": "lemon",
+    "shift": "herb_bundle"
+   },
+   "tags": [
+    "herbs",
+    "lavender",
+    "jars",
+    "botanical",
+    "kitchen"
+   ],
+   "caps": "matte_herb_apothecary",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "parrot_tulips",
+   "name": "Parrot tulips",
+   "category": "classic",
+   "background": "parrot_tulips",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "parrot_tulip",
+    "123": "petal",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "tulips",
+    "still life",
+    "dutch",
+    "museum",
+    "dark"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#F3E6D2",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "anemones",
+   "name": "Anemones",
+   "category": "classic",
+   "background": "anemones",
+   "font": "montserrat",
+   "artisans": {
+    "globe": "anemone",
+    "123": "pearl",
+    "bksp": "fountain_pen"
+   },
+   "tags": [
+    "anemone",
+    "black and white",
+    "chic",
+    "minimal",
+    "ink"
+   ],
+   "caps": "matte_anemones",
+   "since": "2027-05-01"
+  },
+  {
+   "id": "hydrangea_cat",
+   "name": "Hydrangea cat",
+   "category": "animals",
+   "background": "hydrangea_cat",
+   "font": "nunito",
+   "artisans": {
+    "globe": "hydrangea_ball",
+    "123": "snail",
+    "bksp": "raindrop",
+    "return": "bloom_cat"
+   },
+   "tags": [
+    "cat",
+    "hydrangea",
+    "rain",
+    "blue",
+    "june"
+   ],
+   "caps": "matte_hydrangea_cat",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "pink_lemonade",
+   "name": "Pink lemonade",
+   "category": "bright",
+   "background": "pink_lemonade",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "lemonade",
+    "123": "lemon_slice",
+    "bksp": "straw"
+   },
+   "tags": [
+    "lemonade",
+    "pink",
+    "summer",
+    "lemon",
+    "roses"
+   ],
+   "caps": "shape_pink_lemonade",
+   "since": "2027-06-01"
+  },
+  {
+   "id": "kingyo_summer",
+   "name": "Goldfish summer",
+   "category": "cute",
+   "background": "kingyo_summer",
+   "font": "jua",
+   "artisans": {
+    "return": "goldfish_bowl",
+    "globe": "goldfish",
+    "123": "wind_chime",
+    "bksp": "folding_fan"
+   },
+   "tags": [
+    "goldfish",
+    "summer",
+    "festival",
+    "water",
+    "japanese"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#1E2F4A",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "jasmine_vine",
+   "name": "Jasmine",
+   "category": "nature",
+   "background": "jasmine_vine",
+   "font": "raleway",
+   "artisans": {
+    "globe": "jasmine",
+    "123": "crescent_star",
+    "return": "brass_lantern"
+   },
+   "tags": [
+    "jasmine",
+    "night",
+    "green",
+    "lantern",
+    "moon"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "lantern_garden",
+   "name": "Lantern garden",
+   "category": "cozy",
+   "background": "lantern_garden",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "string_light",
+    "123": "candle_glow",
+    "return": "brass_lantern",
+    "bksp": "floral_teacup"
+   },
+   "tags": [
+    "garden party",
+    "lanterns",
+    "dusk",
+    "candles",
+    "summer"
+   ],
+   "caps": "matte_lantern_garden",
+   "since": "2027-07-01"
+  },
+  {
+   "id": "fruit_sando",
+   "name": "Fruit sando",
+   "category": "cute",
+   "background": "fruit_sando",
+   "font": "round",
+   "artisans": {
+    "globe": "sando",
+    "123": "strawberry",
+    "bksp": "milk_bottle"
+   },
+   "tags": [
+    "sando",
+    "strawberry",
+    "kiwi",
+    "cream",
+    "japanese"
+   ],
+   "caps": "matte_fruit_sando",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "storybook_garden",
+   "name": "Storybook garden",
+   "category": "cute",
+   "background": "storybook_garden",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "return": "open_book",
+    "globe": "paper_flower",
+    "123": "bookmark"
+   },
+   "tags": [
+    "book",
+    "pop-up",
+    "paper",
+    "garden",
+    "whimsy"
+   ],
+   "caps": "matte_storybook_garden",
+   "since": "2027-08-01"
+  },
+  {
+   "id": "pink_muhly",
+   "name": "Pink muhly",
+   "category": "cozy",
+   "background": "pink_muhly",
+   "font": "jua",
+   "artisans": {
+    "globe": "muhly_tuft",
+    "123": "film_camera",
+    "shift": "wool_scarf"
+   },
+   "tags": [
+    "muhly",
+    "pink",
+    "autumn",
+    "korea",
+    "film"
+   ],
+   "caps": "matte_pink_muhly",
+   "since": "2027-09-01"
+  },
+  {
+   "id": "dahlia_patch",
+   "name": "Dahlias",
+   "category": "nature",
+   "background": "dahlia_patch",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "dahlia",
+    "123": "secateurs",
+    "shift": "bumble_bee",
+    "return": "flower_jug"
+   },
+   "tags": [
+    "dahlia",
+    "peach",
+    "cutting garden",
+    "late summer",
+    "blush"
+   ],
+   "caps": "matte_dahlia_patch",
+   "since": "2027-09-01"
+  },
+  {
+   "id": "cosmos_cat",
+   "name": "Cosmos cat",
+   "category": "animals",
+   "background": "cosmos_cat",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "ginger_face",
+    "123": "petal",
+    "bksp": "paw_petal",
+    "space": "orange_nap"
+   },
+   "tags": [
+    "cat",
+    "cosmos",
+    "autumn",
+    "korea",
+    "flowers"
+   ],
+   "caps": "matte_cosmos_cat",
+   "since": "2027-09-01"
+  },
+  {
+   "id": "autumn_porch",
+   "name": "Autumn porch",
+   "category": "seasonal",
+   "background": "autumn_porch",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "chrysanthemum",
+    "123": "mini_pumpkin",
+    "bksp": "wool_scarf",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "autumn",
+    "porch",
+    "mums",
+    "plaid"
+   ],
+   "caps": "matte_autumn_porch",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "ginkgo_lane",
+   "name": "Ginkgo lane",
+   "category": "seasonal",
+   "background": "ginkgo_lane",
+   "font": "clean",
+   "artisans": {
+    "globe": "ginkgo_leaf",
+    "123": "latte_heart",
+    "bksp": "wool_scarf"
+   },
+   "tags": [
+    "ginkgo",
+    "autumn",
+    "gold",
+    "seoul",
+    "coffee"
+   ],
+   "caps": "matte_ginkgo_lane",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "hedgerow",
+   "name": "Hedgerow",
+   "category": "nature",
+   "background": "hedgerow",
+   "font": "clean",
+   "artisans": {
+    "globe": "bramble",
+    "123": "acorn",
+    "bksp": "hazelnut",
+    "shift": "robin"
+   },
+   "tags": [
+    "hedgerow",
+    "blackberry",
+    "robin",
+    "autumn",
+    "british"
+   ],
+   "caps": "matte_hedgerow",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "red_squirrel",
+   "name": "Red squirrel",
+   "category": "animals",
+   "background": "red_squirrel",
+   "font": "clean",
+   "artisans": {
+    "globe": "squirrel_pal",
+    "123": "hazelnut",
+    "bksp": "pinecone",
+    "shift": "fern_frond"
+   },
+   "tags": [
+    "squirrel",
+    "hazelnut",
+    "woodland",
+    "autumn",
+    "fern"
+   ],
+   "caps": "matte_red_squirrel",
+   "since": "2027-11-01"
+  },
+  {
+   "id": "camellia_snow",
+   "name": "Camellia snow",
+   "category": "seasonal",
+   "background": "camellia_snow",
+   "font": "sunflower",
+   "artisans": {
+    "globe": "camellia_bloom",
+    "123": "snow_rabbit",
+    "bksp": "ice_snowflake",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "camellia",
+    "snow",
+    "winter",
+    "red"
+   ],
+   "caps": "matte_camellia_snow",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "russian_blue_frost",
+   "name": "Russian blue",
+   "category": "seasonal",
+   "background": "russian_blue_frost",
+   "font": "michroma",
+   "artisans": {
+    "globe": "blue_face",
+    "123": "ice_snowflake",
+    "shift": "icicle",
+    "bksp": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "russian blue",
+    "frost",
+    "winter",
+    "silver"
+   ],
+   "caps": "matte_russian_blue_frost",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "snow_garden",
+   "name": "Snow garden",
+   "category": "seasonal",
+   "background": "snow_garden",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "stone_lantern",
+    "123": "hot_cocoa",
+    "shift": "pine_tree",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "snow",
+    "japanese garden",
+    "winter",
+    "lantern",
+    "calm"
+   ],
+   "caps": "matte_snow_garden",
+   "since": "2027-12-01"
+  },
+  {
+   "id": "winter_peony",
+   "name": "Winter peony",
+   "category": "seasonal",
+   "background": "winter_peony",
+   "font": "fraunces",
+   "artisans": {
+    "return": "peony",
+    "globe": "snow_rabbit",
+    "123": "hot_cocoa",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "peony",
+    "snow",
+    "winter",
+    "straw",
+    "japanese"
+   ],
+   "caps": "matte_winter_peony",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "orchid_house",
+   "name": "Orchid house",
+   "category": "bright",
+   "background": "orchid_house",
+   "font": "raleway",
+   "artisans": {
+    "globe": "orchid",
+    "123": "fern_frond",
+    "bksp": "zinc_can",
+    "return": "terrarium_jar"
+   },
+   "tags": [
+    "orchid",
+    "glasshouse",
+    "fern",
+    "mist",
+    "victorian"
+   ],
+   "caps": "matte_orchid_house",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "bird_feeder",
+   "name": "Bird feeder",
+   "category": "seasonal",
+   "background": "bird_feeder",
+   "font": "fraunces",
+   "artisans": {
+    "return": "feeder",
+    "globe": "robin",
+    "123": "ice_snowflake",
+    "bksp": "pinecone"
+   },
+   "tags": [
+    "robin",
+    "birds",
+    "snow",
+    "winter",
+    "holly"
+   ],
+   "caps": "matte_bird_feeder",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "patchwork_quilt",
+   "name": "Patchwork quilt",
+   "category": "cozy",
+   "background": "patchwork_quilt",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "quilt_square",
+    "123": "button",
+    "return": "flower_jug"
+   },
+   "tags": [
+    "quilt",
+    "patchwork",
+    "cottage",
+    "cosy",
+    "floral"
+   ],
+   "caps": "matte_patchwork_quilt",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "frost_roses",
+   "name": "Frost roses",
+   "category": "seasonal",
+   "background": "frost_roses",
+   "font": "quicksand",
+   "artisans": {
+    "globe": "frosted_rose",
+    "123": "ice_snowflake",
+    "bksp": "pearl",
+    "shift": "icicle"
+   },
+   "tags": [
+    "roses",
+    "frost",
+    "winter",
+    "icy",
+    "pink"
+   ],
+   "caps": "matte_frost_roses",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "snowdrop_kitten",
+   "name": "Snowdrop kitten",
+   "category": "animals",
+   "background": "snowdrop_kitten",
+   "font": "nunito",
+   "artisans": {
+    "globe": "robin",
+    "123": "toe_beans",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "kitten",
+    "snowdrop",
+    "winter",
+    "robin",
+    "frost"
+   ],
+   "caps": "matte_snowdrop_kitten",
+   "since": "2028-01-01"
+  },
+  {
+   "id": "hatbox_kitten",
+   "name": "Hatbox kitten",
+   "category": "cute",
+   "background": "hatbox_kitten",
+   "font": "sniglet",
+   "artisans": {
+    "return": "hatbox_cat",
+    "globe": "ranun_bloom",
+    "123": "satin_bow",
+    "bksp": "blush_peony"
+   },
+   "tags": [
+    "kitten",
+    "hatbox",
+    "peony",
+    "pink",
+    "gift"
+   ],
+   "caps": "shape_hatbox_kitten",
+   "since": "2028-02-01"
+  },
+  {
+   "id": "wrapped_bouquet",
+   "name": "Wrapped bouquet",
+   "category": "cozy",
+   "background": "wrapped_bouquet",
+   "font": "clean",
+   "artisans": {
+    "globe": "ranun_bloom",
+    "123": "tiny_heart",
+    "shift": "tulip",
+    "return": "flower_jug"
+   },
+   "tags": [
+    "bouquet",
+    "korean",
+    "ribbon",
+    "gift",
+    "cream"
+   ],
+   "caps": "matte_wrapped_bouquet",
+   "since": "2028-02-01"
+  },
+  {
+   "id": "swan_pond",
+   "name": "Swan pond",
+   "category": "cozy",
+   "background": "swan_pond",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "willow_swans",
+    "globe": "swan",
+    "123": "lotus",
+    "bksp": "tiny_heart"
+   },
+   "tags": [
+    "swan",
+    "pond",
+    "willow",
+    "romantic",
+    "white"
+   ],
+   "caps": "matte_swan_pond",
+   "since": "2028-02-01"
+  },
+  {
+   "id": "rosebud_chintz",
+   "name": "Rosebud chintz",
+   "category": "cozy",
+   "background": "rosebud_chintz",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "rosebud",
+    "123": "satin_bow",
+    "bksp": "pearl",
+    "shift": "lace_heart"
+   },
+   "tags": [
+    "chintz",
+    "rosebud",
+    "ivory",
+    "coquette",
+    "vintage"
+   ],
+   "caps": "matte_rosebud_chintz",
+   "since": "2028-02-01"
+  },
+  {
+   "id": "regency_garden",
+   "name": "Regency garden",
+   "category": "classic",
+   "background": "regency_garden",
+   "font": "libre_baskerville",
+   "artisans": {
+    "return": "fountain",
+    "globe": "hand_fan",
+    "123": "pearl",
+    "bksp": "wax_seal"
+   },
+   "tags": [
+    "regency",
+    "terrace",
+    "fountain",
+    "duck egg",
+    "roses"
+   ],
+   "caps": "matte_regency_garden",
+   "since": "2028-02-01"
+  },
+  {
+   "id": "rain_boot_kitten",
+   "name": "Rain boot kitten",
+   "category": "cute",
+   "background": "rain_boot_kitten",
+   "font": "clean",
+   "artisans": {
+    "return": "boot_kitten",
+    "globe": "rain_boot",
+    "123": "tulip",
+    "bksp": "clear_umbrella"
+   },
+   "tags": [
+    "kitten",
+    "rain",
+    "boot",
+    "yellow",
+    "spring"
+   ],
+   "caps": "matte_rain_boot_kitten",
+   "since": "2028-03-01"
+  },
+  {
+   "id": "magnolia_wall",
+   "name": "Magnolia wall",
+   "category": "nature",
+   "background": "magnolia_wall",
+   "font": "raleway",
+   "artisans": {
+    "globe": "blush_peony",
+    "123": "tabby_face",
+    "bksp": "petal",
+    "shift": "toe_beans"
+   },
+   "tags": [
+    "cat",
+    "magnolia",
+    "spring",
+    "brick",
+    "blush"
+   ],
+   "caps": "matte_magnolia_wall",
+   "since": "2028-03-01"
+  },
+  {
+   "id": "forget_me_not",
+   "name": "Forget-me-nots",
+   "category": "nature",
+   "background": "forget_me_not",
+   "font": "clean",
+   "artisans": {
+    "globe": "forget_sprig",
+    "123": "tiny_heart"
+   },
+   "tags": [
+    "forget-me-not",
+    "blue",
+    "tiny",
+    "spring",
+    "sweet"
+   ],
+   "caps": "matte_forget_me_not",
+   "since": "2028-03-01"
+  },
+  {
+   "id": "sakura_latte",
+   "name": "Sakura latte",
+   "category": "cute",
+   "background": "sakura_latte",
+   "font": "jua",
+   "artisans": {
+    "globe": "pink_latte",
+    "123": "sakura_cookie",
+    "bksp": "petal",
+    "shift": "sakura_bloom"
+   },
+   "tags": [
+    "latte",
+    "sakura",
+    "pink",
+    "cafe",
+    "spring"
+   ],
+   "caps": "matte_sakura_latte",
+   "since": "2028-03-01"
+  },
+  {
+   "id": "puddle_petals",
+   "name": "Puddle petals",
+   "category": "nature",
+   "background": "puddle_petals",
+   "font": "clean",
+   "artisans": {
+    "space": "petal_puddle",
+    "globe": "petal",
+    "123": "clear_umbrella",
+    "shift": "rain_boot"
+   },
+   "tags": [
+    "sakura",
+    "rain",
+    "puddle",
+    "grey",
+    "soft"
+   ],
+   "caps": "white",
+   "glass": 0.66,
+   "ink": "#3E3340",
+   "since": "2028-03-01"
+  },
+  {
+   "id": "bloom_basket",
+   "name": "Bloom basket",
+   "category": "cute",
+   "background": "bloom_basket",
+   "font": "varela_round",
+   "artisans": {
+    "return": "basket_kitten",
+    "globe": "daisy",
+    "123": "tulip",
+    "bksp": "toe_beans"
+   },
+   "tags": [
+    "kitten",
+    "basket",
+    "daisy",
+    "tulip",
+    "easter"
+   ],
+   "caps": "matte_bloom_basket",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "meadow_kitten",
+   "name": "Meadow kitten",
+   "category": "animals",
+   "background": "meadow_kitten",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "toe_beans",
+    "123": "cornflower",
+    "bksp": "poppy",
+    "shift": "robin"
+   },
+   "tags": [
+    "kitten",
+    "meadow",
+    "butterfly",
+    "wildflowers",
+    "spring"
+   ],
+   "caps": "matte_meadow_kitten",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "balcony_tulips",
+   "name": "Balcony tulips",
+   "category": "cozy",
+   "background": "balcony_tulips",
+   "font": "lexend",
+   "artisans": {
+    "globe": "tulip",
+    "123": "string_light",
+    "bksp": "seedling",
+    "shift": "tortie_face"
+   },
+   "tags": [
+    "cat",
+    "balcony",
+    "tulips",
+    "dusk",
+    "fairy lights"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "nemophila_hill",
+   "name": "Nemophila hill",
+   "category": "nature",
+   "background": "nemophila_hill",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "nemophila",
+    "123": "straw_hat",
+    "bksp": "tiny_heart"
+   },
+   "tags": [
+    "nemophila",
+    "blue",
+    "spring",
+    "field",
+    "sky"
+   ],
+   "caps": "shape_nemophila_hill",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "lily_of_valley",
+   "name": "Lily of valley",
+   "category": "cozy",
+   "background": "lily_of_valley",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "lily_bells",
+    "123": "satin_bow",
+    "bksp": "pearl",
+    "shift": "bumble_bee"
+   },
+   "tags": [
+    "lily of the valley",
+    "white",
+    "may",
+    "pearl",
+    "dainty"
+   ],
+   "caps": "matte_lily_of_valley",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "bluebell_wood",
+   "name": "Bluebell wood",
+   "category": "nature",
+   "background": "bluebell_wood",
+   "font": "clean",
+   "artisans": {
+    "globe": "bluebell",
+    "123": "beech_leaf",
+    "bksp": "fern_frond",
+    "shift": "robin"
+   },
+   "tags": [
+    "bluebells",
+    "woodland",
+    "spring",
+    "blue",
+    "english"
+   ],
+   "caps": "matte_bluebell_wood",
+   "since": "2028-04-01"
+  },
+  {
+   "id": "tea_terraces",
+   "name": "Tea terraces",
+   "category": "nature",
+   "background": "tea_terraces",
+   "font": "outfit",
+   "artisans": {
+    "space": "tea_rows",
+    "globe": "iced_matcha",
+    "123": "matcha_bowl",
+    "shift": "bamboo_whisk"
+   },
+   "tags": [
+    "tea",
+    "green",
+    "mist",
+    "korea",
+    "calm"
+   ],
+   "caps": "matte_tea_terraces",
+   "since": "2028-05-01"
+  },
+  {
+   "id": "rose_arch",
+   "name": "Rose arch",
+   "category": "nature",
+   "background": "rose_arch",
+   "font": "playfair_display",
+   "artisans": {
+    "return": "garden_bench",
+    "globe": "garden_rose",
+    "123": "rosebud",
+    "space": "climbing_roses"
+   },
+   "tags": [
+    "roses",
+    "arch",
+    "bench",
+    "june",
+    "english garden"
+   ],
+   "caps": "matte_rose_arch",
+   "since": "2028-05-01"
+  },
+  {
+   "id": "sweet_peas",
+   "name": "Sweet peas",
+   "category": "cute",
+   "background": "sweet_peas",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "sweet_pea",
+    "123": "trowel",
+    "return": "flower_jug"
+   },
+   "tags": [
+    "sweet pea",
+    "pastel",
+    "cottage",
+    "summer",
+    "lilac"
+   ],
+   "caps": "shape_sweet_peas",
+   "since": "2028-05-01"
+  },
+  {
+   "id": "delphinium_wall",
+   "name": "Delphiniums",
+   "category": "nature",
+   "background": "delphinium_wall",
+   "font": "varela_round",
+   "artisans": {
+    "globe": "delphinium",
+    "123": "bumble_bee",
+    "bksp": "trowel"
+   },
+   "tags": [
+    "delphinium",
+    "blue",
+    "brick",
+    "embroidery",
+    "english garden"
+   ],
+   "caps": "matte_delphinium_wall",
+   "since": "2028-05-01"
+  },
+  {
+   "id": "daisy_gingham",
+   "name": "Daisy gingham",
+   "category": "cute",
+   "background": "daisy_gingham",
+   "font": "varela_round",
+   "artisans": {
+    "globe": "daisy",
+    "123": "ladybug",
+    "shift": "ribbon_bow"
+   },
+   "tags": [
+    "daisy",
+    "gingham",
+    "sage",
+    "picnic",
+    "spring"
+   ],
+   "caps": "matte_daisy_gingham",
+   "since": "2028-05-01"
+  },
+  {
+   "id": "hydrangea_steps",
+   "name": "Hydrangea steps",
+   "category": "nature",
+   "background": "hydrangea_steps",
+   "font": "sunflower",
+   "artisans": {
+    "globe": "hydrangea_ball",
+    "123": "snail",
+    "bksp": "paper_umbrella",
+    "shift": "raindrop"
+   },
+   "tags": [
+    "hydrangea",
+    "rain",
+    "temple",
+    "blue",
+    "june"
+   ],
+   "caps": "matte_hydrangea_steps",
+   "since": "2028-06-01"
+  },
+  {
+   "id": "dandelion_clock",
+   "name": "Dandelion clock",
+   "category": "nature",
+   "background": "dandelion_clock",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "dandelion",
+    "123": "silver_star",
+    "bksp": "petal",
+    "shift": "sunflower"
+   },
+   "tags": [
+    "dandelion",
+    "wish",
+    "seeds",
+    "soft",
+    "blue-grey"
+   ],
+   "caps": "shape_dandelion_clock",
+   "since": "2028-06-01"
+  },
+  {
+   "id": "frog_umbrella",
+   "name": "Frog umbrella",
+   "category": "cute",
+   "background": "frog_umbrella",
+   "font": "sniglet",
+   "artisans": {
+    "globe": "frog_leaf",
+    "123": "raindrop",
+    "bksp": "snail",
+    "shift": "red_mushroom"
+   },
+   "tags": [
+    "frog",
+    "rain",
+    "leaf",
+    "mushroom",
+    "green"
+   ],
+   "caps": "matte_frog_umbrella",
+   "since": "2028-06-01"
+  },
+  {
+   "id": "flower_cookies",
+   "name": "Flower cookies",
+   "category": "cute",
+   "background": "flower_cookies",
+   "font": "baloo_2",
+   "artisans": {
+    "globe": "flower_cookie",
+    "123": "milk_bottle",
+    "shift": "violet_posy"
+   },
+   "tags": [
+    "cookies",
+    "pressed flowers",
+    "pansy",
+    "bakery",
+    "cream"
+   ],
+   "caps": "matte_flower_cookies",
+   "since": "2028-06-01"
+  },
+  {
+   "id": "daisy_crown",
+   "name": "Daisy crown",
+   "category": "cute",
+   "background": "daisy_crown",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "globe": "cornflower",
+    "123": "forget_sprig",
+    "bksp": "toe_beans"
+   },
+   "tags": [
+    "kitten",
+    "daisy",
+    "summer",
+    "grass",
+    "cute"
+   ],
+   "caps": "shape_daisy_crown",
+   "since": "2028-07-01"
+  },
+  {
+   "id": "morning_glory",
+   "name": "Morning glory",
+   "category": "bright",
+   "background": "morning_glory",
+   "font": "michroma",
+   "artisans": {
+    "globe": "glory_bloom",
+    "123": "wind_chime",
+    "bksp": "folding_fan"
+   },
+   "tags": [
+    "morning glory",
+    "blue",
+    "summer",
+    "cyanotype",
+    "japanese"
+   ],
+   "caps": "black",
+   "glass": 0.84,
+   "ink": "#FFFFFF",
+   "since": "2028-07-01"
+  },
+  {
+   "id": "eucalyptus_sage",
+   "name": "Eucalyptus",
+   "category": "cozy",
+   "background": "eucalyptus_sage",
+   "font": "dm_sans",
+   "artisans": {
+    "globe": "eucalyptus",
+    "123": "satin_bow",
+    "bksp": "candle_glow"
+   },
+   "tags": [
+    "eucalyptus",
+    "sage",
+    "green",
+    "minimal",
+    "calm"
+   ],
+   "caps": "matte_eucalyptus_sage",
+   "since": "2028-07-01"
+  },
+  {
+   "id": "hummingbird",
+   "name": "Hummingbird",
+   "category": "animals",
+   "background": "hummingbird",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "humming_bird",
+    "123": "fuchsia",
+    "bksp": "nemophila"
+   },
+   "tags": [
+    "hummingbird",
+    "fuchsia",
+    "summer",
+    "bird",
+    "cream"
+   ],
+   "caps": "matte_hummingbird",
+   "since": "2028-07-01"
+  },
+  {
+   "id": "fairy_garden",
+   "name": "Fairy garden",
+   "category": "cute",
+   "background": "fairy_garden",
+   "font": "sniglet",
+   "artisans": {
+    "return": "fairy_pot",
+    "globe": "tiny_lantern",
+    "123": "tiny_door",
+    "bksp": "red_mushroom"
+   },
+   "tags": [
+    "fairy",
+    "miniature",
+    "moss",
+    "lantern",
+    "whimsy"
+   ],
+   "caps": "matte_fairy_garden",
+   "since": "2028-08-01"
+  },
+  {
+   "id": "teacup_garden",
+   "name": "Teacup garden",
+   "category": "cute",
+   "background": "teacup_garden",
+   "font": "varela_round",
+   "artisans": {
+    "globe": "teacup_planter",
+    "123": "trowel",
+    "bksp": "floral_teacup",
+    "shift": "forget_sprig"
+   },
+   "tags": [
+    "teacup",
+    "planter",
+    "succulent",
+    "blush",
+    "whimsy"
+   ],
+   "caps": "matte_teacup_garden",
+   "since": "2028-08-01"
+  },
+  {
+   "id": "balloon_fields",
+   "name": "Balloon fields",
+   "category": "nature",
+   "background": "balloon_fields",
+   "font": "bubblegum_sans",
+   "artisans": {
+    "space": "balloon_row",
+    "globe": "hot_balloon",
+    "123": "straw_hat"
+   },
+   "tags": [
+    "balloons",
+    "lavender",
+    "dawn",
+    "pastel",
+    "dreamy"
+   ],
+   "caps": "shape_balloon_fields",
+   "since": "2028-08-01"
+  },
+  {
+   "id": "flower_carousel",
+   "name": "Carousel",
+   "category": "cute",
+   "background": "flower_carousel",
+   "font": "lobster",
+   "artisans": {
+    "return": "carousel_horse",
+    "globe": "garden_rose",
+    "123": "light_bulb",
+    "shift": "satin_bow"
+   },
+   "tags": [
+    "carousel",
+    "roses",
+    "gold",
+    "fair",
+    "nostalgic"
+   ],
+   "caps": "matte_flower_carousel",
+   "since": "2028-08-01"
+  },
+  {
+   "id": "paper_garden",
+   "name": "Paper garden",
+   "category": "cute",
+   "background": "paper_garden",
+   "font": "chewy",
+   "artisans": {
+    "space": "paper_border",
+    "globe": "paper_flower",
+    "123": "paper_crane"
+   },
+   "tags": [
+    "paper-cut",
+    "flowers",
+    "craft",
+    "pink",
+    "sage"
+   ],
+   "caps": "shape_paper_garden",
+   "since": "2028-08-01"
+  },
+  {
+   "id": "emerald_salon",
+   "name": "Emerald salon",
+   "category": "places",
+   "background": "emerald_salon",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "crystal_chandelier",
+    "123": "gold_candelabra",
+    "return": "gilded_frame",
+    "space": "marble_colonnade"
+   },
+   "tags": [
+    "emerald",
+    "salon",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_emerald_salon",
+   "glass": 1.0,
+   "ink": "#F6E7C1"
+  },
+  {
+   "id": "hall_of_mirrors",
+   "name": "Hall of mirrors",
+   "category": "places",
+   "background": "hall_of_mirrors",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "crystal_chandelier",
+    "123": "golden_key",
+    "shift": "gilded_crown",
+    "space": "chandelier_row"
+   },
+   "tags": [
+    "hall",
+    "mirrors",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_hall_of_mirrors",
+   "glass": 1.0,
+   "ink": "#FFF1D2"
+  },
+  {
+   "id": "royal_library",
+   "name": "Royal library",
+   "category": "places",
+   "background": "royal_library",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "quill_inkwell",
+    "123": "leather_books",
+    "shift": "brass_telescope",
+    "bksp": "pocket_watch"
+   },
+   "tags": [
+    "royal",
+    "library",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_royal_library",
+   "glass": 1.0,
+   "ink": "#F4E2BC"
+  },
+  {
+   "id": "rose_ballroom",
+   "name": "Rose ballroom",
+   "category": "places",
+   "background": "rose_ballroom",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "crystal_chandelier",
+    "123": "pearl",
+    "shift": "hand_fan",
+    "return": "glass_cloche"
+   },
+   "tags": [
+    "rose",
+    "ballroom",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "light"
+   ],
+   "caps": "glass_rose_ballroom",
+   "glass": 1.0,
+   "ink": "#FFF4F4"
+  },
+  {
+   "id": "starry_rotunda",
+   "name": "Starry rotunda",
+   "category": "places",
+   "background": "starry_rotunda",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "brass_telescope",
+    "123": "silver_star",
+    "bksp": "golden_key",
+    "return": "crescent_moon"
+   },
+   "tags": [
+    "starry",
+    "rotunda",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_starry_rotunda",
+   "glass": 1.0,
+   "ink": "#F3E3B5"
+  },
+  {
+   "id": "winter_palace",
+   "name": "Winter palace",
+   "category": "places",
+   "background": "winter_palace",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "crystal_chandelier",
+    "123": "ice_snowflake",
+    "shift": "gilded_crown",
+    "return": "glass_globe"
+   },
+   "tags": [
+    "winter",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "light"
+   ],
+   "caps": "glass_winter_palace",
+   "glass": 1.0,
+   "ink": "#F2F8FF"
+  },
+  {
+   "id": "opera_night",
+   "name": "Opera night",
+   "category": "places",
+   "background": "opera_night",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "opera_mask",
+    "123": "champagne_coupe",
+    "return": "velvet_stage",
+    "space": "velvet_swag"
+   },
+   "tags": [
+    "opera",
+    "night",
+    "palace",
+    "majestic",
+    "gold",
+    "glass"
+   ],
+   "caps": "glass_opera_night",
+   "glass": 1.0,
+   "ink": "#FBE9D0"
+  },
+  {
+   "id": "moorish_court",
+   "name": "Moorish court",
+   "category": "places",
+   "background": "moorish_court",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "mint_tea_glass",
+    "123": "perfume_bottle",
+    "return": "brass_lantern"
+   },
+   "tags": [
+    "moorish",
+    "court",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_moorish_court",
+   "glass": 1.0,
+   "ink": "#FFF0DC"
+  },
+  {
+   "id": "gilded_deco",
+   "name": "Gilded deco",
+   "category": "places",
+   "background": "gilded_deco",
+   "font": "oswald",
+   "artisans": {
+    "globe": "champagne_coupe",
+    "123": "pearl",
+    "bksp": "golden_key",
+    "space": "chandelier_row"
+   },
+   "tags": [
+    "gilded",
+    "deco",
+    "palace",
+    "majestic",
+    "gold",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_gilded_deco",
+   "glass": 1.0,
+   "ink": "#E8C77A"
+  },
+  {
+   "id": "palace_orangery",
+   "name": "Palace orangery",
+   "category": "places",
+   "background": "palace_orangery",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "lemon",
+    "123": "gilded_birdcage",
+    "bksp": "monstera",
+    "return": "glass_cloche"
+   },
+   "tags": [
+    "palace",
+    "orangery",
+    "majestic",
+    "gold",
+    "glass",
+    "light"
+   ],
+   "caps": "glass_palace_orangery",
+   "glass": 1.0,
+   "ink": "#F6FBF2"
+  },
+  {
+   "id": "forbidden_city",
+   "name": "Forbidden City",
+   "category": "places",
+   "background": "forbidden_city",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "palace_lantern",
+    "123": "plum_sprig",
+    "return": "golden_roof",
+    "space": "red_lanterns"
+   },
+   "tags": [
+    "forbidden",
+    "city",
+    "snow",
+    "beijing",
+    "china",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_forbidden_city",
+   "glass": 1.0,
+   "ink": "#FFE8C4"
+  },
+  {
+   "id": "kyoto_torii",
+   "name": "Thousand gates",
+   "category": "places",
+   "background": "kyoto_torii",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "fox_mask",
+    "123": "maple_leaf",
+    "shift": "stone_lantern",
+    "space": "torii_row"
+   },
+   "tags": [
+    "thousand",
+    "gates",
+    "kyoto",
+    "japan",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_kyoto_torii",
+   "glass": 1.0,
+   "ink": "#FFF1DE"
+  },
+  {
+   "id": "santorini",
+   "name": "Santorini sunset",
+   "category": "places",
+   "background": "santorini",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "blue_dome",
+    "123": "bougainvillea",
+    "bksp": "scallop_shell"
+   },
+   "tags": [
+    "santorini",
+    "sunset",
+    "oia",
+    "greece",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_santorini",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "paris_balcony",
+   "name": "Paris balcony",
+   "category": "places",
+   "background": "paris_balcony",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "eiffel_tower",
+    "123": "macaron",
+    "bksp": "croissant",
+    "return": "paris_balcony"
+   },
+   "tags": [
+    "paris",
+    "balcony",
+    "france",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_paris_balcony",
+   "glass": 1.0,
+   "ink": "#F7E7C6"
+  },
+  {
+   "id": "gyeongbokgung",
+   "name": "Palace night",
+   "category": "places",
+   "background": "gyeongbokgung",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "norigae",
+    "123": "moon_jar",
+    "bksp": "persimmon",
+    "return": "hanok_roof"
+   },
+   "tags": [
+    "palace",
+    "night",
+    "seoul",
+    "korea",
+    "travel",
+    "world",
+    "glass"
+   ],
+   "caps": "glass_gyeongbokgung",
+   "glass": 1.0,
+   "ink": "#FDF0D8"
+  },
+  {
+   "id": "jiufen",
+   "name": "Lantern teahouse",
+   "category": "places",
+   "background": "jiufen",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "oolong_teapot",
+    "123": "red_envelope",
+    "return": "paper_lantern",
+    "space": "red_lanterns"
+   },
+   "tags": [
+    "lantern",
+    "teahouse",
+    "jiufen",
+    "taiwan",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_jiufen",
+   "glass": 1.0,
+   "ink": "#FFE3B8"
+  },
+  {
+   "id": "taj_mahal",
+   "name": "Taj Mahal dawn",
+   "category": "places",
+   "background": "taj_mahal",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "diya_lamp",
+    "123": "peacock_feather",
+    "shift": "lotus",
+    "return": "marble_jali"
+   },
+   "tags": [
+    "taj",
+    "mahal",
+    "dawn",
+    "agra",
+    "india",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_taj_mahal",
+   "glass": 1.0,
+   "ink": "#FFF1E4"
+  },
+  {
+   "id": "venice",
+   "name": "Venice dusk",
+   "category": "places",
+   "background": "venice",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "opera_mask",
+    "123": "murano_vase",
+    "return": "gondola"
+   },
+   "tags": [
+    "venice",
+    "dusk",
+    "italy",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_venice",
+   "glass": 1.0,
+   "ink": "#FFEBC8"
+  },
+  {
+   "id": "himeji_sakura",
+   "name": "Castle in bloom",
+   "category": "places",
+   "background": "himeji_sakura",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "white_castle",
+    "123": "sakura_bloom",
+    "shift": "folding_fan",
+    "space": "sakura_branch"
+   },
+   "tags": [
+    "castle",
+    "bloom",
+    "himeji",
+    "japan",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_himeji_sakura",
+   "glass": 1.0,
+   "ink": "#FFF0F3"
+  },
+  {
+   "id": "suzhou_garden",
+   "name": "Moon gate garden",
+   "category": "places",
+   "background": "suzhou_garden",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "jade_bi",
+    "123": "plum_sprig",
+    "bksp": "ink_brush",
+    "return": "moon_gate"
+   },
+   "tags": [
+    "moon",
+    "gate",
+    "garden",
+    "suzhou",
+    "china",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_suzhou_garden",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "kinkakuji",
+   "name": "Golden pavilion",
+   "category": "places",
+   "background": "kinkakuji",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "golden_pavilion",
+    "123": "maple_leaf",
+    "bksp": "matcha_bowl",
+    "return": "koi_pond"
+   },
+   "tags": [
+    "golden",
+    "pavilion",
+    "kyoto",
+    "japan",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_kinkakuji",
+   "glass": 1.0,
+   "ink": "#FFF0D2"
+  },
+  {
+   "id": "hanok_village",
+   "name": "Hanok autumn",
+   "category": "places",
+   "background": "hanok_village",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "moon_jar",
+    "123": "persimmon",
+    "return": "hanok_roof"
+   },
+   "tags": [
+    "hanok",
+    "autumn",
+    "bukchon",
+    "seoul",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_hanok_village",
+   "glass": 1.0,
+   "ink": "#FFF1E0"
+  },
+  {
+   "id": "heavenly_palace",
+   "name": "Cloud palace",
+   "category": "places",
+   "background": "heavenly_palace",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "xiangyun_cloud",
+    "123": "paper_crane",
+    "space": "long_dragon"
+   },
+   "tags": [
+    "palace",
+    "clouds",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_heavenly_palace",
+   "glass": 1.0,
+   "ink": "#FFF4E0"
+  },
+  {
+   "id": "neuschwanstein",
+   "name": "Fairytale castle",
+   "category": "places",
+   "background": "neuschwanstein",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "fairytale_castle",
+    "123": "golden_key",
+    "shift": "maple_leaf",
+    "bksp": "pinecone"
+   },
+   "tags": [
+    "fairytale",
+    "castle",
+    "bavaria",
+    "germany",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_neuschwanstein",
+   "glass": 1.0,
+   "ink": "#F4EEDC"
+  },
+  {
+   "id": "hallstatt",
+   "name": "Hallstatt winter",
+   "category": "places",
+   "background": "hallstatt",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "alpine_chalet",
+    "123": "hot_cocoa",
+    "shift": "ice_snowflake",
+    "return": "snow_peaks"
+   },
+   "tags": [
+    "hallstatt",
+    "winter",
+    "austria",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_hallstatt",
+   "glass": 1.0,
+   "ink": "#FFF4E6"
+  },
+  {
+   "id": "lofoten_aurora",
+   "name": "Northern lights",
+   "category": "places",
+   "background": "lofoten_aurora",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "aurora_jar",
+    "123": "snowy_owl",
+    "bksp": "ice_snowflake"
+   },
+   "tags": [
+    "northern",
+    "lights",
+    "lofoten",
+    "norway",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_lofoten_aurora",
+   "glass": 1.0,
+   "ink": "#E9FFF6"
+  },
+  {
+   "id": "istanbul_lamps",
+   "name": "Istanbul lamps",
+   "category": "places",
+   "background": "istanbul_lamps",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "turkish_lamp",
+    "123": "tulip_tea",
+    "return": "brass_lantern"
+   },
+   "tags": [
+    "lamps",
+    "istanbul",
+    "türkiye",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_istanbul_lamps",
+   "glass": 1.0,
+   "ink": "#FFEFD2"
+  },
+  {
+   "id": "sheesh_mahal",
+   "name": "Mirror palace",
+   "category": "places",
+   "background": "sheesh_mahal",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "jhumka",
+    "123": "peacock_feather",
+    "shift": "gold_elephant",
+    "bksp": "diya_lamp"
+   },
+   "tags": [
+    "palace",
+    "mirrors",
+    "jaipur",
+    "india",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_sheesh_mahal",
+   "glass": 1.0,
+   "ink": "#FFEFCB"
+  },
+  {
+   "id": "bangkok_palace",
+   "name": "Grand Palace",
+   "category": "places",
+   "background": "bangkok_palace",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "krathong",
+    "123": "orchid",
+    "shift": "gold_elephant",
+    "bksp": "lotus"
+   },
+   "tags": [
+    "grand",
+    "palace",
+    "bangkok",
+    "thailand",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_bangkok_palace",
+   "glass": 1.0,
+   "ink": "#FFF0C8"
+  },
+  {
+   "id": "hoi_an",
+   "name": "Hoi An lanterns",
+   "category": "places",
+   "background": "hoi_an",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "non_la",
+    "123": "lotus",
+    "return": "paper_lantern",
+    "space": "silk_lanterns"
+   },
+   "tags": [
+    "hoi",
+    "an",
+    "lanterns",
+    "hoi an",
+    "vietnam",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_hoi_an",
+   "glass": 1.0,
+   "ink": "#FFF0D8"
+  },
+  {
+   "id": "majorelle",
+   "name": "Majorelle blue",
+   "category": "places",
+   "background": "majorelle",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "blue_cactus",
+    "123": "lemon",
+    "bksp": "mint_tea_glass",
+    "return": "brass_lantern"
+   },
+   "tags": [
+    "majorelle",
+    "blue",
+    "marrakech",
+    "morocco",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_majorelle",
+   "glass": 1.0,
+   "ink": "#FFF4CC"
+  },
+  {
+   "id": "arabian_nights",
+   "name": "Arabian nights",
+   "category": "places",
+   "background": "arabian_nights",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "magic_lamp",
+    "123": "date_bowl",
+    "return": "crescent_moon",
+    "space": "flying_carpet"
+   },
+   "tags": [
+    "arabian",
+    "nights",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_arabian_nights",
+   "glass": 1.0,
+   "ink": "#FFE9B8"
+  },
+  {
+   "id": "giza_stars",
+   "name": "Giza stars",
+   "category": "places",
+   "background": "giza_stars",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "pharaoh_mask",
+    "123": "scarab",
+    "return": "pyramids",
+    "space": "constellation"
+   },
+   "tags": [
+    "pyramids",
+    "stars",
+    "giza",
+    "egypt",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_giza_stars",
+   "glass": 1.0,
+   "ink": "#FFE6B0"
+  },
+  {
+   "id": "petra_night",
+   "name": "Petra by night",
+   "category": "places",
+   "background": "petra_night",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "luminaria",
+    "123": "candle_glow",
+    "shift": "golden_key"
+   },
+   "tags": [
+    "petra",
+    "night",
+    "jordan",
+    "travel",
+    "world",
+    "glass"
+   ],
+   "caps": "glass_petra_night",
+   "glass": 1.0,
+   "ink": "#FFE7CC"
+  },
+  {
+   "id": "grand_central",
+   "name": "Grand Central",
+   "category": "places",
+   "background": "grand_central",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "station_clock",
+    "123": "red_apple",
+    "bksp": "yellow_taxi",
+    "space": "constellation"
+   },
+   "tags": [
+    "grand",
+    "central",
+    "new york",
+    "usa",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_grand_central",
+   "glass": 1.0,
+   "ink": "#FFF0D0"
+  },
+  {
+   "id": "plaza_espana",
+   "name": "Plaza de España",
+   "category": "places",
+   "background": "plaza_espana",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "azulejo_tile",
+    "123": "mandarin",
+    "shift": "hand_fan",
+    "bksp": "garden_rose"
+   },
+   "tags": [
+    "plaza",
+    "de",
+    "españa",
+    "seville",
+    "spain",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_plaza_espana",
+   "glass": 1.0,
+   "ink": "#FFEFD6"
+  },
+  {
+   "id": "machu_picchu",
+   "name": "Machu Picchu",
+   "category": "places",
+   "background": "machu_picchu",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "llama",
+    "123": "eagle",
+    "return": "snow_peaks"
+   },
+   "tags": [
+    "machu",
+    "picchu",
+    "cusco",
+    "peru",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_machu_picchu",
+   "glass": 1.0,
+   "ink": "#F4F2E2"
+  },
+  {
+   "id": "cenote",
+   "name": "Hidden cenote",
+   "category": "places",
+   "background": "cenote",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "toucan",
+    "123": "humming_bird",
+    "shift": "monstera"
+   },
+   "tags": [
+    "hidden",
+    "cenote",
+    "yucatán",
+    "mexico",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_cenote",
+   "glass": 1.0,
+   "ink": "#EFFFFC"
+  },
+  {
+   "id": "sunken_palace",
+   "name": "Sunken palace",
+   "category": "places",
+   "background": "sunken_palace",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "golden_trident",
+    "123": "pearl",
+    "bksp": "sea_turtle",
+    "return": "jellyfish"
+   },
+   "tags": [
+    "sunken",
+    "palace",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_sunken_palace",
+   "glass": 1.0,
+   "ink": "#EFFFFF"
+  },
+  {
+   "id": "sydney_harbour",
+   "name": "Sydney harbour",
+   "category": "places",
+   "background": "sydney_harbour",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "harbour_opera",
+    "123": "koala_hug",
+    "bksp": "scallop_shell"
+   },
+   "tags": [
+    "sydney",
+    "harbour",
+    "australia",
+    "travel",
+    "world",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_sydney_harbour",
+   "glass": 1.0,
+   "ink": "#F6F2EA"
+  },
+  {
+   "id": "lunar_new_year",
+   "name": "Lunar New Year",
+   "category": "seasonal",
+   "background": "lunar_new_year",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "red_envelope",
+    "123": "mandarin",
+    "shift": "lucky_knot",
+    "return": "paper_lantern",
+    "space": "long_dragon"
+   },
+   "tags": [
+    "lunar",
+    "year",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_lunar_new_year",
+   "glass": 1.0,
+   "ink": "#FFE6B0",
+   "event": "2027-02-06"
+  },
+  {
+   "id": "venice_carnival",
+   "name": "Venice carnival",
+   "category": "seasonal",
+   "background": "venice_carnival",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "opera_mask",
+    "123": "murano_vase",
+    "return": "gondola"
+   },
+   "tags": [
+    "carnival",
+    "venice",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_venice_carnival",
+   "glass": 1.0,
+   "ink": "#FFE9C4",
+   "event": "2027-02-09"
+  },
+  {
+   "id": "ramadan_lanterns",
+   "name": "Ramadan lanterns",
+   "category": "seasonal",
+   "background": "ramadan_lanterns",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "fanous",
+    "123": "date_bowl",
+    "return": "crescent_moon",
+    "space": "star_garland"
+   },
+   "tags": [
+    "ramadan",
+    "lanterns",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_ramadan_lanterns",
+   "glass": 1.0,
+   "ink": "#FFE9B8",
+   "event": "2027-02-08"
+  },
+  {
+   "id": "tulip_fields",
+   "name": "Tulip season",
+   "category": "seasonal",
+   "background": "tulip_fields",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "windmill",
+    "123": "tulip",
+    "bksp": "clog_shoe"
+   },
+   "tags": [
+    "tulip",
+    "season",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_tulip_fields",
+   "glass": 1.0,
+   "ink": "#FFF2E2",
+   "event": "2027-04-17"
+  },
+  {
+   "id": "tanabata",
+   "name": "Tanabata",
+   "category": "seasonal",
+   "background": "tanabata",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "tanzaku_bamboo",
+    "123": "paper_crane",
+    "shift": "wind_chime",
+    "space": "constellation"
+   },
+   "tags": [
+    "tanabata",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_tanabata",
+   "glass": 1.0,
+   "ink": "#FFF0D8",
+   "event": "2027-07-07"
+  },
+  {
+   "id": "summer_fireworks",
+   "name": "Summer fireworks",
+   "category": "seasonal",
+   "background": "summer_fireworks",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "sparkler",
+    "123": "goldfish",
+    "return": "goldfish_bowl",
+    "space": "firework_row"
+   },
+   "tags": [
+    "summer",
+    "fireworks",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_summer_fireworks",
+   "glass": 1.0,
+   "ink": "#FFF0D8",
+   "event": "2027-08-02"
+  },
+  {
+   "id": "mid_autumn",
+   "name": "Mid-Autumn moon",
+   "category": "seasonal",
+   "background": "mid_autumn",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "rabbit_lantern",
+    "123": "mooncake",
+    "return": "moon_rabbit"
+   },
+   "tags": [
+    "mid",
+    "autumn",
+    "moon",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_mid_autumn",
+   "glass": 1.0,
+   "ink": "#FFEFC8",
+   "event": "2027-09-15"
+  },
+  {
+   "id": "halloween_village",
+   "name": "Halloween town",
+   "category": "seasonal",
+   "background": "halloween_village",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "pumpkin",
+    "123": "little_ghost",
+    "shift": "black_kitty",
+    "return": "cauldron",
+    "space": "witch_broom"
+   },
+   "tags": [
+    "halloween",
+    "village",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_halloween_village",
+   "glass": 1.0,
+   "ink": "#FFD9A0",
+   "event": "2026-10-31"
+  },
+  {
+   "id": "diwali",
+   "name": "Diwali",
+   "category": "seasonal",
+   "background": "diwali",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "diya_lamp",
+    "123": "rangoli",
+    "bksp": "marigold",
+    "space": "tealight_row"
+   },
+   "tags": [
+    "diwali",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_diwali",
+   "glass": 1.0,
+   "ink": "#FFEBC4",
+   "event": "2026-11-08"
+  },
+  {
+   "id": "sky_lanterns",
+   "name": "Sky lanterns",
+   "category": "seasonal",
+   "background": "sky_lanterns",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "sky_lantern",
+    "123": "krathong",
+    "shift": "lotus"
+   },
+   "tags": [
+    "sky",
+    "lanterns",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_sky_lanterns",
+   "glass": 1.0,
+   "ink": "#FFF0D0",
+   "event": "2026-11-24"
+  },
+  {
+   "id": "christmas_market",
+   "name": "Christmas market",
+   "category": "seasonal",
+   "background": "christmas_market",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "gingerbread_man",
+    "123": "mulled_wine",
+    "shift": "candy_cane",
+    "return": "market_stall"
+   },
+   "tags": [
+    "christmas",
+    "market",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_christmas_market",
+   "glass": 1.0,
+   "ink": "#FFEBC8",
+   "event": "2026-12-25"
+  },
+  {
+   "id": "new_year_eve",
+   "name": "New Year's Eve",
+   "category": "seasonal",
+   "background": "new_year_eve",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "champagne_coupe",
+    "123": "sparkler",
+    "space": "firework_row"
+   },
+   "tags": [
+    "eve",
+    "festival",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_new_year_eve",
+   "glass": 1.0,
+   "ink": "#FFE6A8",
+   "event": "2026-12-31"
+  },
+  {
+   "id": "rainy_cafe",
+   "name": "Rainy café",
+   "category": "cozy",
+   "background": "rainy_cafe",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "latte_heart",
+    "123": "croissant",
+    "shift": "clear_umbrella",
+    "bksp": "raindrop"
+   },
+   "tags": [
+    "rainy",
+    "café",
+    "cozy",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_rainy_cafe",
+   "glass": 1.0,
+   "ink": "#FFEBD2"
+  },
+  {
+   "id": "cabin_lights",
+   "name": "Cabin lights",
+   "category": "cozy",
+   "background": "cabin_lights",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "hot_cocoa",
+    "123": "wood_stove",
+    "bksp": "pinecone",
+    "return": "campfire",
+    "space": "knit_scarf"
+   },
+   "tags": [
+    "snow",
+    "cabin",
+    "cozy",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_cabin_lights",
+   "glass": 1.0,
+   "ink": "#FFEAD0"
+  },
+  {
+   "id": "ryokan_snow",
+   "name": "Ryokan in snow",
+   "category": "cozy",
+   "background": "ryokan_snow",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "matcha_bowl",
+    "123": "yuzu",
+    "shift": "stone_lantern",
+    "space": "onsen_capy"
+   },
+   "tags": [
+    "ryokan",
+    "snow",
+    "cozy",
+    "lights",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_ryokan_snow",
+   "glass": 1.0,
+   "ink": "#FFF0DC"
+  },
+  {
+   "id": "sleeper_train",
+   "name": "Night train",
+   "category": "cozy",
+   "background": "sleeper_train",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "steam_train",
+    "123": "vintage_suitcase",
+    "bksp": "pocket_watch"
+   },
+   "tags": [
+    "night",
+    "train",
+    "cozy",
+    "lights",
+    "glass"
+   ],
+   "caps": "glass_sleeper_train",
+   "glass": 1.0,
+   "ink": "#FFE9C8"
+  },
+  {
+   "id": "attic_lights",
+   "name": "Attic lights",
+   "category": "cozy",
+   "background": "attic_lights",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "string_light",
+    "123": "candle_glow",
+    "return": "open_book"
+   },
+   "tags": [
+    "attic",
+    "lights",
+    "cozy",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_attic_lights",
+   "glass": 1.0,
+   "ink": "#FFEDD6"
+  },
+  {
+   "id": "tokyo_rain",
+   "name": "Tokyo rain",
+   "category": "places",
+   "background": "tokyo_rain",
+   "font": "righteous",
+   "artisans": {
+    "globe": "vending_machine",
+    "123": "onigiri",
+    "shift": "clear_umbrella",
+    "return": "ramen_bowl"
+   },
+   "tags": [
+    "tokyo",
+    "rain",
+    "neon",
+    "city",
+    "night",
+    "glass"
+   ],
+   "caps": "glass_tokyo_rain",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "hong_kong_neon",
+   "name": "Hong Kong neon",
+   "category": "places",
+   "background": "hong_kong_neon",
+   "font": "righteous",
+   "artisans": {
+    "globe": "hk_tram",
+    "123": "bao_basket",
+    "shift": "neon_sign",
+    "return": "neon_heart"
+   },
+   "tags": [
+    "hong",
+    "kong",
+    "neon",
+    "city",
+    "night",
+    "glass"
+   ],
+   "caps": "glass_hong_kong_neon",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "seoul_neon",
+   "name": "Seoul neon",
+   "category": "places",
+   "background": "seoul_neon",
+   "font": "jua",
+   "artisans": {
+    "globe": "namsan_tower",
+    "123": "kimbap",
+    "return": "bingsu_bowl"
+   },
+   "tags": [
+    "seoul",
+    "nights",
+    "neon",
+    "city",
+    "night",
+    "glass"
+   ],
+   "caps": "glass_seoul_neon",
+   "glass": 1.0,
+   "ink": "#F8F0FF"
+  },
+  {
+   "id": "nyc_snow",
+   "name": "New York snow",
+   "category": "places",
+   "background": "nyc_snow",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "yellow_taxi",
+    "123": "pretzel",
+    "bksp": "red_apple",
+    "return": "hot_cocoa"
+   },
+   "tags": [
+    "york",
+    "snow",
+    "neon",
+    "city",
+    "night",
+    "glass"
+   ],
+   "caps": "glass_nyc_snow",
+   "glass": 1.0,
+   "ink": "#FFF2DC"
+  },
+  {
+   "id": "glowing_beach",
+   "name": "Glowing beach",
+   "category": "nature",
+   "background": "glowing_beach",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "sea_turtle",
+    "123": "scallop_shell",
+    "return": "jellyfish",
+    "space": "whale_glide"
+   },
+   "tags": [
+    "glowing",
+    "beach",
+    "nature",
+    "glow",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_glowing_beach",
+   "glass": 1.0,
+   "ink": "#EFFFFF"
+  },
+  {
+   "id": "ice_cave",
+   "name": "Ice cave",
+   "category": "nature",
+   "background": "ice_cave",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "icicle",
+    "123": "crystal_point",
+    "shift": "ice_snowflake",
+    "return": "snow_peaks"
+   },
+   "tags": [
+    "ice",
+    "cave",
+    "nature",
+    "glow",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_ice_cave",
+   "glass": 1.0,
+   "ink": "#F0FAFF"
+  },
+  {
+   "id": "firefly_bamboo",
+   "name": "Firefly bamboo",
+   "category": "nature",
+   "background": "firefly_bamboo",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "stone_lantern",
+    "123": "wind_chime",
+    "return": "firefly_jar"
+   },
+   "tags": [
+    "firefly",
+    "bamboo",
+    "nature",
+    "glow",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_firefly_bamboo",
+   "glass": 1.0,
+   "ink": "#F4FFE6"
+  },
+  {
+   "id": "lavender_fields",
+   "name": "Lavender fields",
+   "category": "nature",
+   "background": "lavender_fields",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "lavender_bundle",
+    "123": "straw_hat",
+    "bksp": "herb_bundle"
+   },
+   "tags": [
+    "lavender",
+    "fields",
+    "nature",
+    "glow",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_lavender_fields",
+   "glass": 1.0,
+   "ink": "#FFF4EC"
+  },
+  {
+   "id": "cappadocia",
+   "name": "Cappadocia",
+   "category": "nature",
+   "background": "cappadocia",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "hot_balloon",
+    "123": "tulip_tea",
+    "shift": "turkish_lamp",
+    "return": "balloon_trio"
+   },
+   "tags": [
+    "cappadocia",
+    "balloons",
+    "nature",
+    "glow",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_cappadocia",
+   "glass": 1.0,
+   "ink": "#FFF2E2"
+  },
+  {
+   "id": "dragon_hoard",
+   "name": "Dragon's hoard",
+   "category": "dreamy",
+   "background": "dragon_hoard",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "baby_dragon",
+    "123": "gold_coin",
+    "shift": "crown",
+    "return": "treasure_pile",
+    "space": "ember_dragon"
+   },
+   "tags": [
+    "dragon's",
+    "hoard",
+    "fantasy",
+    "magic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_dragon_hoard",
+   "glass": 1.0,
+   "ink": "#FFE6A8"
+  },
+  {
+   "id": "crystal_cave",
+   "name": "Crystal cave",
+   "category": "dreamy",
+   "background": "crystal_cave",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "amethyst",
+    "123": "opal_stone",
+    "shift": "crystal_point",
+    "return": "potion_flask"
+   },
+   "tags": [
+    "crystal",
+    "cave",
+    "fantasy",
+    "magic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_crystal_cave",
+   "glass": 1.0,
+   "ink": "#FBF0FF"
+  },
+  {
+   "id": "glowing_forest",
+   "name": "Glowing forest",
+   "category": "dreamy",
+   "background": "glowing_forest",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "glow_mushrooms",
+    "123": "red_mushroom",
+    "shift": "luna_moth",
+    "return": "moss_cottage"
+   },
+   "tags": [
+    "glowing",
+    "forest",
+    "fantasy",
+    "magic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_glowing_forest",
+   "glass": 1.0,
+   "ink": "#EFFFF8"
+  },
+  {
+   "id": "star_library",
+   "name": "Library of stars",
+   "category": "dreamy",
+   "background": "star_library",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "armillary_sphere",
+    "123": "spellbook",
+    "shift": "comet",
+    "return": "open_book",
+    "space": "star_garland"
+   },
+   "tags": [
+    "library",
+    "stars",
+    "fantasy",
+    "magic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_star_library",
+   "glass": 1.0,
+   "ink": "#FFE9B8"
+  },
+  {
+   "id": "swirling_stars",
+   "name": "Swirling stars",
+   "category": "art",
+   "background": "swirling_stars",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "sunflower",
+    "123": "paint_palette",
+    "return": "crescent_moon"
+   },
+   "tags": [
+    "starry",
+    "swirl",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_swirling_stars",
+   "glass": 1.0,
+   "ink": "#FFE9A0"
+  },
+  {
+   "id": "water_lilies",
+   "name": "Water lilies",
+   "category": "art",
+   "background": "water_lilies",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "lotus",
+    "123": "white_butterfly",
+    "return": "koi_pond"
+   },
+   "tags": [
+    "water",
+    "lilies",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_water_lilies",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "gold_mosaic",
+   "name": "Golden mosaic",
+   "category": "art",
+   "background": "gold_mosaic",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "blush_peony",
+    "123": "morpho",
+    "space": "gold_leaf"
+   },
+   "tags": [
+    "golden",
+    "mosaic",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_gold_mosaic",
+   "glass": 1.0,
+   "ink": "#FFE6A0"
+  },
+  {
+   "id": "woodblock_fuji",
+   "name": "Woodblock Fuji",
+   "category": "art",
+   "background": "woodblock_fuji",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "red_seal",
+    "123": "ink_brush",
+    "return": "great_wave",
+    "space": "fuji_peak"
+   },
+   "tags": [
+    "woodblock",
+    "fuji",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_woodblock_fuji",
+   "glass": 1.0,
+   "ink": "#FFF4E0"
+  },
+  {
+   "id": "art_nouveau",
+   "name": "Art Nouveau",
+   "category": "art",
+   "background": "art_nouveau",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "peacock_feather",
+    "123": "morpho",
+    "return": "peony"
+   },
+   "tags": [
+    "art",
+    "nouveau",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_art_nouveau",
+   "glass": 1.0,
+   "ink": "#FFF4E2"
+  },
+  {
+   "id": "ink_mountains",
+   "name": "Ink mountains",
+   "category": "art",
+   "background": "ink_mountains",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "ink_brush",
+    "123": "red_seal",
+    "space": "ink_hills"
+   },
+   "tags": [
+    "ink",
+    "mountains",
+    "art",
+    "painting",
+    "glass",
+    "light"
+   ],
+   "caps": "glass_ink_mountains",
+   "glass": 1.0,
+   "ink": "#1A1A1A"
+  },
+  {
+   "id": "tiffany_glass",
+   "name": "Tiffany glass",
+   "category": "art",
+   "background": "tiffany_glass",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "dragonfly",
+    "123": "wisteria_bunch",
+    "space": "wisteria_arch"
+   },
+   "tags": [
+    "tiffany",
+    "glass",
+    "art",
+    "painting",
+    "night"
+   ],
+   "caps": "glass_tiffany_glass",
+   "glass": 1.0,
+   "ink": "#FFF0FF"
+  },
+  {
+   "id": "persian_garden",
+   "name": "Persian garden",
+   "category": "art",
+   "background": "persian_garden",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "pomegranate",
+    "123": "peacock_feather",
+    "return": "gold_fan"
+   },
+   "tags": [
+    "persian",
+    "garden",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_persian_garden",
+   "glass": 1.0,
+   "ink": "#FFE9B8"
+  },
+  {
+   "id": "dark_florals",
+   "name": "Dark florals",
+   "category": "art",
+   "background": "dark_florals",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "tulip",
+    "123": "garden_rose",
+    "return": "black_rose"
+   },
+   "tags": [
+    "dark",
+    "florals",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_dark_florals",
+   "glass": 1.0,
+   "ink": "#FFF0E6"
+  },
+  {
+   "id": "gold_irises",
+   "name": "Gold irises",
+   "category": "art",
+   "background": "gold_irises",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "iris_bloom",
+    "123": "folding_fan"
+   },
+   "tags": [
+    "gold",
+    "irises",
+    "art",
+    "painting",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_gold_irises",
+   "glass": 1.0,
+   "ink": "#FFF4D8"
+  },
+  {
+   "id": "curtain_light",
+   "name": "Curtain light",
+   "category": "dreamy",
+   "background": "curtain_light",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "white_butterfly",
+    "123": "floral_teacup",
+    "bksp": "petal"
+   },
+   "tags": [
+    "curtain",
+    "light",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_curtain_light",
+   "glass": 1.0,
+   "ink": "#FFF4E4"
+  },
+  {
+   "id": "cotton_candy_sky",
+   "name": "Cotton-candy sky",
+   "category": "dreamy",
+   "background": "cotton_candy_sky",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "cloud_puff",
+    "123": "star_sticker",
+    "return": "crescent_moon"
+   },
+   "tags": [
+    "cotton",
+    "candy",
+    "sky",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_cotton_candy_sky",
+   "glass": 1.0,
+   "ink": "#FFF6FA"
+  },
+  {
+   "id": "moonlit_window",
+   "name": "Moonlit window",
+   "category": "dreamy",
+   "background": "moonlit_window",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "candle_glow",
+    "123": "sakura_bloom",
+    "return": "moon_rabbit"
+   },
+   "tags": [
+    "moonlit",
+    "window",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_moonlit_window",
+   "glass": 1.0,
+   "ink": "#F2F0FF"
+  },
+  {
+   "id": "anime_sky",
+   "name": "Summer anime sky",
+   "category": "dreamy",
+   "background": "anime_sky",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "paper_crane",
+    "123": "wind_chime",
+    "bksp": "ice_lolly"
+   },
+   "tags": [
+    "summer",
+    "anime",
+    "sky",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_anime_sky",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "moonlit_garden",
+   "name": "Moonlit garden",
+   "category": "dreamy",
+   "background": "moonlit_garden",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "string_light",
+    "123": "white_butterfly",
+    "return": "firefly_jar"
+   },
+   "tags": [
+    "moon",
+    "garden",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_moonlit_garden",
+   "glass": 1.0,
+   "ink": "#F4FFF8"
+  },
+  {
+   "id": "iridescent",
+   "name": "Iridescent",
+   "category": "dreamy",
+   "background": "iridescent",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "crystal_point",
+    "123": "pearl",
+    "shift": "chrome_butterfly",
+    "bksp": "opal_stone"
+   },
+   "tags": [
+    "iridescent",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_iridescent",
+   "glass": 1.0,
+   "ink": "#FFFFFF"
+  },
+  {
+   "id": "dream_house",
+   "name": "Dream house",
+   "category": "dreamy",
+   "background": "dream_house",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "tiny_door",
+    "123": "cloud_puff",
+    "return": "old_door"
+   },
+   "tags": [
+    "dream",
+    "house",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_dream_house",
+   "glass": 1.0,
+   "ink": "#FFF6EC"
+  },
+  {
+   "id": "misty_meadow",
+   "name": "Misty meadow",
+   "category": "dreamy",
+   "background": "misty_meadow",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "eucalyptus",
+    "123": "white_butterfly"
+   },
+   "tags": [
+    "misty",
+    "meadow",
+    "dreamy",
+    "aesthetic",
+    "glass",
+    "light"
+   ],
+   "caps": "glass_misty_meadow",
+   "glass": 1.0,
+   "ink": "#2A3038"
+  },
+  {
+   "id": "night_drive",
+   "name": "Night drive",
+   "category": "dreamy",
+   "background": "night_drive",
+   "font": "oswald",
+   "artisans": {
+    "globe": "steering_wheel",
+    "shift": "night_raven",
+    "return": "race_car"
+   },
+   "tags": [
+    "night",
+    "drive",
+    "dreamy",
+    "aesthetic",
+    "glass"
+   ],
+   "caps": "glass_night_drive",
+   "glass": 1.0,
+   "ink": "#E8ECF2"
+  },
+  {
+   "id": "red_house",
+   "name": "Red house",
+   "category": "art",
+   "background": "red_house",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "red_apple",
+    "123": "mandarin",
+    "shift": "red_chair",
+    "return": "garden_bench"
+   },
+   "tags": [
+    "red",
+    "house",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_red_house",
+   "glass": 1.0,
+   "ink": "#FFF1DC"
+  },
+  {
+   "id": "red_sail",
+   "name": "Red sail",
+   "category": "art",
+   "background": "red_sail",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "red_sailboat",
+    "123": "swan"
+   },
+   "tags": [
+    "red",
+    "sail",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_red_sail",
+   "glass": 1.0,
+   "ink": "#FFF1DC"
+  },
+  {
+   "id": "yellow_boat",
+   "name": "Yellow rowboat",
+   "category": "art",
+   "background": "yellow_boat",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "bath_duck",
+    "123": "lemon",
+    "shift": "duckling"
+   },
+   "tags": [
+    "yellow",
+    "rowboat",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_yellow_boat",
+   "glass": 1.0,
+   "ink": "#FFF6EC"
+  },
+  {
+   "id": "lighthouse_isle",
+   "name": "Lighthouse isle",
+   "category": "art",
+   "background": "lighthouse_isle",
+   "font": "playfair_display",
+   "artisans": {
+    "globe": "scallop_shell",
+    "123": "film_camera",
+    "return": "lighthouse"
+   },
+   "tags": [
+    "lighthouse",
+    "isle",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_lighthouse_isle",
+   "glass": 1.0,
+   "ink": "#FFF1DC"
+  },
+  {
+   "id": "orange_grove",
+   "name": "Orange grove",
+   "category": "art",
+   "background": "orange_grove",
+   "font": "libre_baskerville",
+   "artisans": {
+    "globe": "mandarin",
+    "123": "straw_hat"
+   },
+   "tags": [
+    "orange",
+    "grove",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_orange_grove",
+   "glass": 1.0,
+   "ink": "#FFF4E4"
+  },
+  {
+   "id": "cherry_car",
+   "name": "Cherry car",
+   "category": "art",
+   "background": "cherry_car",
+   "font": "oswald",
+   "artisans": {
+    "globe": "steering_wheel",
+    "123": "cherry_pair",
+    "return": "race_car"
+   },
+   "tags": [
+    "cherry",
+    "car",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_cherry_car",
+   "glass": 1.0,
+   "ink": "#FFF1DC"
+  },
+  {
+   "id": "dusk_cabin",
+   "name": "Dusk cabin",
+   "category": "art",
+   "background": "dusk_cabin",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "hot_cocoa",
+    "123": "pine_tree",
+    "return": "campfire"
+   },
+   "tags": [
+    "dusk",
+    "cabin",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_dusk_cabin",
+   "glass": 1.0,
+   "ink": "#FFF0E6"
+  },
+  {
+   "id": "snow_lake",
+   "name": "Snow lake",
+   "category": "art",
+   "background": "snow_lake",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "alpine_chalet",
+    "123": "pine_tree",
+    "return": "snow_peaks",
+    "space": "first_snow"
+   },
+   "tags": [
+    "snow",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_snow_lake",
+   "glass": 1.0,
+   "ink": "#F4FAFF"
+  },
+  {
+   "id": "balloon_lake",
+   "name": "Balloon lake",
+   "category": "art",
+   "background": "balloon_lake",
+   "font": "dm_serif_display",
+   "artisans": {
+    "globe": "hot_balloon",
+    "123": "cloud_puff"
+   },
+   "tags": [
+    "balloon",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_balloon_lake",
+   "glass": 1.0,
+   "ink": "#FFF1DC"
+  },
+  {
+   "id": "flamingo_lagoon",
+   "name": "Flamingo lagoon",
+   "category": "art",
+   "background": "flamingo_lagoon",
+   "font": "fraunces",
+   "artisans": {
+    "globe": "flamingo",
+    "123": "scallop_shell"
+   },
+   "tags": [
+    "flamingo",
+    "lagoon",
+    "lake",
+    "reflection",
+    "poster",
+    "calm",
+    "glass",
+    "night"
+   ],
+   "caps": "glass_flamingo_lagoon",
+   "glass": 1.0,
+   "ink": "#FFF4F0"
+  }
+ ]
+}
